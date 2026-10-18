@@ -1,0 +1,562 @@
+<title>Ziskind Sailing</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* Layout: broadcast scoreboard — sticky header + tab nav; live band, two-sailor careers, team pages.
+   Color: dark harbor navy ground; Harvard crimson = Zoey, Tufts blue = Crue; gold marks a win. */
+:root{
+  --bg:#f3f6fb; --surface:#ffffff; --surface-2:#eef3f9; --surface-3:#e4ebf4;
+  --line:#d4deea; --line-2:#c2cedd;
+  --fg:#0c1724; --muted:#5a6b80; --faint:#8295aa;
+  --zoey:#b41f38; --zoey-soft:#f6e1e5;
+  --crue:#1667ad; --crue-soft:#dcebf8;
+  --gold:#b8860b; --gold-mark:#d79a1e;
+  --good:#1a8a5a; --warn:#b26a08; --bad:#b33;
+  --shadow:0 1px 2px rgba(12,23,36,.06),0 6px 20px rgba(12,23,36,.07);
+  --fs-display:clamp(2.1rem,6vw,3.5rem);
+  --f-display:"Fraunces",Georgia,"Times New Roman",serif;
+  --f-body:"Archivo","Helvetica Neue",Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0a1521; --surface:#10202f; --surface-2:#162739; --surface-3:#1d3245;
+  --line:#26394e; --line-2:#33495f;
+  --fg:#e9f1fb; --muted:#9db2c8; --faint:#6f869d;
+  --zoey:#f0526c; --zoey-soft:#2b1620;
+  --crue:#44a3ea; --crue-soft:#0f2433;
+  --gold:#f0c24b; --gold-mark:#f4c860;
+  --good:#44c98a; --warn:#f0a93b; --bad:#f06464;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 26px rgba(0,0,0,.4);
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#0a1521; --surface:#10202f; --surface-2:#162739; --surface-3:#1d3245;
+  --line:#26394e; --line-2:#33495f;
+  --fg:#e9f1fb; --muted:#9db2c8; --faint:#6f869d;
+  --zoey:#f0526c; --zoey-soft:#2b1620;
+  --crue:#44a3ea; --crue-soft:#0f2433;
+  --gold:#f0c24b; --gold-mark:#f4c860;
+  --good:#44c98a; --warn:#f0a93b; --bad:#f06464;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 26px rgba(0,0,0,.4);
+  color-scheme:dark;
+}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-body);line-height:1.45;
+  -webkit-font-smoothing:antialiased;font-size:15px}
+.wrap{max-width:1120px;margin:0 auto;
+  padding-left:max(16px,env(safe-area-inset-left,0px));
+  padding-right:max(16px,env(safe-area-inset-right,0px));}
+h1,h2,h3{text-wrap:balance;margin:0}
+a{color:inherit}
+.tnum{font-variant-numeric:tabular-nums}
+
+/* ---------- header ---------- */
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;
+  background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line)}
+.head-in{display:flex;align-items:center;gap:16px;flex-wrap:wrap;padding-block:12px}
+.mark{display:flex;flex-direction:column;gap:2px;min-width:0}
+.mark .k{font-family:var(--f-display);font-weight:600;font-size:1.5rem;letter-spacing:-.01em;line-height:1}
+.mark .s{font-size:.72rem;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+.head-right{margin-left:auto;display:flex;align-items:center;gap:10px}
+.updated{display:flex;align-items:center;gap:7px;font-size:.74rem;color:var(--muted);
+  background:var(--surface-2);border:1px solid var(--line);border-radius:999px;padding:5px 11px;white-space:nowrap}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--good);box-shadow:0 0 0 0 color-mix(in srgb,var(--good) 70%,transparent);animation:pulse 2.4s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--good) 60%,transparent)}70%{box-shadow:0 0 0 7px transparent}100%{box-shadow:0 0 0 0 transparent}}
+.tbtn{appearance:none;border:1px solid var(--line);background:var(--surface);color:var(--muted);
+  width:34px;height:34px;border-radius:9px;cursor:pointer;font-size:15px;display:grid;place-items:center}
+.tbtn:hover{color:var(--fg);border-color:var(--line-2)}
+nav.tabs{display:flex;gap:4px;overflow-x:auto;padding-bottom:10px;scrollbar-width:none}
+nav.tabs::-webkit-scrollbar{display:none}
+.tab{appearance:none;border:0;background:none;cursor:pointer;color:var(--muted);font-family:inherit;
+  font-size:.92rem;font-weight:600;padding:8px 14px;border-radius:999px;white-space:nowrap;letter-spacing:.01em}
+.tab[aria-selected="true"]{background:var(--fg);color:var(--bg)}
+.tab:hover:not([aria-selected="true"]){color:var(--fg);background:var(--surface-2)}
+.tab .cdot{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:6px;vertical-align:middle}
+
+main{padding-block:22px 44px}
+section[role=tabpanel]{animation:fade .35s ease}
+@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+
+.eyebrow{font-size:.74rem;letter-spacing:.13em;text-transform:uppercase;color:var(--faint);font-weight:600}
+.sec-h{font-family:var(--f-display);font-weight:600;letter-spacing:-.01em;font-size:1.55rem;margin:4px 0 2px}
+.sec-sub{color:var(--muted);font-size:.9rem;margin-bottom:18px}
+
+/* ---------- live ---------- */
+.livehero{margin-bottom:10px}
+.livehero h2{font-family:var(--f-display);font-size:var(--fs-display);font-weight:600;letter-spacing:-.02em;line-height:1}
+.livehero p{color:var(--muted);margin:8px 0 0;max-width:60ch}
+.live-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px;margin-top:22px}
+.lcard{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:18px;
+  padding:20px;box-shadow:var(--shadow);overflow:hidden}
+.lcard::before{content:"";position:absolute;inset:0 auto 0 0;width:5px;background:var(--acc)}
+.lcard.z{--acc:var(--zoey)} .lcard.c{--acc:var(--crue)}
+.lc-top{display:flex;align-items:flex-start;gap:12px;margin-bottom:16px}
+.avatar{width:46px;height:46px;border-radius:12px;flex:none;display:grid;place-items:center;
+  font-family:var(--f-display);font-weight:600;font-size:1.3rem;color:#fff;background:var(--acc)}
+.lc-name{font-family:var(--f-display);font-size:1.5rem;font-weight:600;line-height:1}
+.lc-meta{font-size:.8rem;color:var(--muted);margin-top:3px}
+.livechip{margin-left:auto;display:inline-flex;align-items:center;gap:6px;font-size:.68rem;font-weight:700;
+  letter-spacing:.1em;text-transform:uppercase;color:#fff;background:var(--bad);border-radius:999px;padding:4px 9px}
+.livechip .dot{background:#fff;animation:pulse 2s infinite}
+.lc-reg{font-weight:600;font-size:1.02rem;line-height:1.25}
+.lc-reg .host{color:var(--muted);font-weight:500;font-size:.85rem;display:block;margin-top:2px}
+.standrow{display:flex;gap:12px;margin-top:16px}
+.stbox{flex:1;background:var(--surface-2);border:1px solid var(--line);border-radius:12px;padding:12px 14px;min-width:0}
+.stbox .l{font-size:.68rem;letter-spacing:.07em;text-transform:uppercase;color:var(--faint);font-weight:600}
+.stbox .v{font-family:var(--f-display);font-weight:600;font-size:1.7rem;line-height:1.05;margin-top:4px}
+.stbox .v small{font-size:.9rem;color:var(--muted);font-weight:500}
+.stbox .sub{font-size:.76rem;color:var(--muted);margin-top:2px}
+.fleetbar{margin-top:16px}
+.fleetbar .fl-l{display:flex;justify-content:space-between;font-size:.7rem;color:var(--faint);margin-bottom:6px}
+.track{position:relative;height:9px;border-radius:999px;background:linear-gradient(90deg,var(--acc),color-mix(in srgb,var(--acc) 25%,var(--surface-3)))}
+.track .pin{position:absolute;top:50%;width:15px;height:15px;border-radius:50%;background:var(--surface);
+  border:3px solid var(--acc);transform:translate(-50%,-50%);box-shadow:0 1px 4px rgba(0,0,0,.3)}
+.livelink{display:inline-flex;align-items:center;gap:6px;margin-top:16px;font-size:.82rem;font-weight:600;color:var(--acc);text-decoration:none}
+.livelink:hover{text-decoration:underline}
+.no-live{background:var(--surface);border:1px dashed var(--line-2);border-radius:16px;padding:22px;color:var(--muted);text-align:center}
+
+/* ---------- stat tiles ---------- */
+.tiles{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(104px,1fr))}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:13px;padding:13px 14px}
+.tile .v{font-family:var(--f-display);font-weight:600;font-size:1.85rem;line-height:1;letter-spacing:-.01em}
+.tile .v small{font-size:.82rem;color:var(--muted)}
+.tile .l{font-size:.72rem;color:var(--muted);margin-top:5px;letter-spacing:.02em}
+.tile.accent .v{color:var(--acc)}
+
+/* ---------- sailor profile cards (overview) ---------- */
+.two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+@media(max-width:720px){.two{grid-template-columns:1fr}}
+.pcard{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:20px;box-shadow:var(--shadow);
+  border-top:4px solid var(--acc);display:flex;flex-direction:column;gap:16px}
+.pcard.z{--acc:var(--zoey)} .pcard.c{--acc:var(--crue)}
+.pc-head{display:flex;align-items:center;gap:13px}
+.pc-head .avatar{width:52px;height:52px;border-radius:13px;font-size:1.5rem}
+.pc-name{font-family:var(--f-display);font-size:1.7rem;font-weight:600;line-height:1}
+.pc-sub{font-size:.82rem;color:var(--muted);margin-top:3px}
+.linkbtn{appearance:none;border:1px solid var(--line);background:var(--surface-2);color:var(--fg);
+  font-family:inherit;font-weight:600;font-size:.84rem;border-radius:10px;padding:9px 14px;cursor:pointer;width:100%}
+.linkbtn:hover{border-color:var(--acc);color:var(--acc)}
+
+/* ---------- chart ---------- */
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:20px;box-shadow:var(--shadow);margin-top:18px}
+.panel.z{--acc:var(--zoey)} .panel.c{--acc:var(--crue)}
+.panel-h{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:4px}
+.panel-h h3{font-family:var(--f-display);font-weight:600;font-size:1.2rem}
+.panel-h .hint{font-size:.78rem;color:var(--muted)}
+.chartbox{position:relative;width:100%;margin-top:10px}
+svg.trend{width:100%;height:auto;display:block;overflow:visible}
+.tipwrap{position:absolute;pointer-events:none;opacity:0;transition:opacity .12s;z-index:5;
+  background:var(--fg);color:var(--bg);border-radius:9px;padding:8px 11px;font-size:.76rem;line-height:1.35;
+  box-shadow:0 6px 20px rgba(0,0,0,.35);transform:translate(-50%,-115%);white-space:nowrap;min-width:0}
+.tipwrap b{font-family:var(--f-display)}
+.legend{display:flex;gap:16px;flex-wrap:wrap;font-size:.76rem;color:var(--muted);margin-top:12px}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.lg-dot{width:10px;height:10px;border-radius:50%}
+
+/* ---------- tables ---------- */
+.tablewrap{overflow-x:auto;margin-top:12px;border:1px solid var(--line);border-radius:14px}
+table{border-collapse:collapse;width:100%;font-size:.86rem;min-width:540px}
+caption{text-align:left;font-family:var(--f-display);font-weight:600;font-size:1.05rem;padding:14px 16px 2px}
+thead th{position:sticky;top:0;background:var(--surface-2);text-align:left;font-size:.68rem;letter-spacing:.07em;
+  text-transform:uppercase;color:var(--faint);font-weight:700;padding:9px 14px;border-bottom:1px solid var(--line)}
+tbody td{padding:10px 14px;border-bottom:1px solid var(--line)}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:hover td{background:var(--surface-2)}
+.rname{font-weight:600;min-width:180px}
+.rhost{color:var(--muted);font-size:.8rem}
+.badge{display:inline-flex;align-items:center;gap:5px;font-weight:700;border-radius:7px;padding:3px 9px;font-size:.82rem;white-space:nowrap}
+.b-win{background:color-mix(in srgb,var(--gold) 20%,transparent);color:var(--gold);border:1px solid color-mix(in srgb,var(--gold) 45%,transparent)}
+.b-pod{background:color-mix(in srgb,var(--good) 16%,transparent);color:var(--good);border:1px solid color-mix(in srgb,var(--good) 40%,transparent)}
+.b-top{background:var(--surface-3);color:var(--fg);border:1px solid var(--line-2)}
+.b-mid{color:var(--muted)}
+.b-na{color:var(--faint);font-style:italic;font-size:.8rem}
+.pos{font-size:.74rem;color:var(--muted)}
+.seasonhdr td{background:var(--surface-2);font-family:var(--f-display);font-weight:600;font-size:.92rem;
+  letter-spacing:.01em;padding:9px 14px;color:var(--fg)}
+.seasonhdr .cnt{color:var(--muted);font-weight:500;font-size:.8rem;font-family:var(--f-body)}
+
+/* ---------- teams ---------- */
+.tm-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+@media(max-width:720px){.tm-grid{grid-template-columns:1fr}}
+.tm-head{display:flex;align-items:center;gap:12px;margin-bottom:4px}
+.crest{width:44px;height:44px;border-radius:11px;display:grid;place-items:center;color:#fff;background:var(--acc);
+  font-family:var(--f-display);font-weight:700;font-size:.95rem;letter-spacing:.02em}
+.tm-name{font-family:var(--f-display);font-size:1.3rem;font-weight:600;line-height:1}
+.tm-sub{font-size:.78rem;color:var(--muted)}
+.nowlist{display:flex;flex-direction:column;gap:8px;margin:14px 0 6px}
+.nowrow{display:flex;align-items:center;gap:10px;background:var(--surface-2);border:1px solid var(--line);
+  border-radius:11px;padding:10px 13px}
+.nowrow .nm{font-weight:600;font-size:.86rem;min-width:0;flex:1}
+.nowrow .nm .h{color:var(--muted);font-weight:500;font-size:.76rem;display:block}
+.placepill{font-family:var(--f-display);font-weight:600;font-size:1.1rem;white-space:nowrap}
+.statuschip{font-size:.62rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;border-radius:999px;padding:3px 7px}
+.sc-live{color:var(--bad);background:color-mix(in srgb,var(--bad) 15%,transparent)}
+.sc-done{color:var(--muted);background:var(--surface-3)}
+
+.foot{margin-top:40px;padding-top:22px;border-top:1px solid var(--line);color:var(--muted);font-size:.82rem;line-height:1.6}
+.foot a{color:var(--crue);font-weight:600;text-decoration:none}
+.foot a:hover{text-decoration:underline}
+.foot .src{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.srcpill{font-size:.74rem;background:var(--surface-2);border:1px solid var(--line);border-radius:999px;padding:5px 12px;text-decoration:none;color:var(--fg);font-weight:600}
+.srcpill:hover{border-color:var(--line-2)}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+:focus-visible{outline:2px solid var(--crue);outline-offset:2px;border-radius:6px}
+</style>
+
+<header>
+  <div class="wrap">
+    <div class="head-in">
+      <div class="mark">
+        <div class="k">Ziskind Sailing</div>
+        <div class="s">Harvard · Tufts — ICSA College Sailing</div>
+      </div>
+      <div class="head-right">
+        <span class="updated" id="updated"><span class="dot"></span><span id="updated-txt">—</span></span>
+        <button class="tbtn" id="theme" title="Toggle light / dark" aria-label="Toggle theme">◐</button>
+      </div>
+    </div>
+    <nav class="tabs" role="tablist" aria-label="Views">
+      <button class="tab" role="tab" data-tab="live" aria-selected="true">Live now</button>
+      <button class="tab" role="tab" data-tab="zoey" aria-selected="false"><span class="cdot" style="background:var(--zoey)"></span>Zoey</button>
+      <button class="tab" role="tab" data-tab="crue" aria-selected="false"><span class="cdot" style="background:var(--crue)"></span>Crue</button>
+      <button class="tab" role="tab" data-tab="teams" aria-selected="false">Teams</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section role="tabpanel" id="p-live"></section>
+  <section role="tabpanel" id="p-zoey" hidden></section>
+  <section role="tabpanel" id="p-crue" hidden></section>
+  <section role="tabpanel" id="p-teams" hidden></section>
+
+  <div class="foot wrap" style="padding-left:0;padding-right:0">
+    <div>Scores from <a href="https://scores.collegesailing.org" target="_blank" rel="noopener">College Sailing TechScore</a>, the ICSA's official scoring site. This page is a <b>snapshot</b> captured at the time shown above — it does not refresh on its own. During a regatta, tap a <b>“Live on TechScore”</b> link to jump to the live source, or ask me to refresh this page and I'll pull the latest.</div>
+    <div class="src">
+      <a class="srcpill" href="https://scores.collegesailing.org/sailors/zoey-ziskind/" target="_blank" rel="noopener">Zoey on TechScore ↗</a>
+      <a class="srcpill" href="https://scores.collegesailing.org/sailors/crue-ziskind/" target="_blank" rel="noopener">Crue on TechScore ↗</a>
+      <a class="srcpill" href="https://scores.collegesailing.org/schools/harvard/" target="_blank" rel="noopener">Harvard ↗</a>
+      <a class="srcpill" href="https://scores.collegesailing.org/schools/tufts/" target="_blank" rel="noopener">Tufts ↗</a>
+    </div>
+  </div>
+</main>
+
+<div class="tipwrap" id="tip"></div>
+
+<script>
+/* ============================ DATA (snapshot) ============================ */
+let DATA=null, UPDATED=null;  // loaded from ./data.json at runtime
+
+/* ============================ helpers ============================ */
+const $=(s,el=document)=>el.querySelector(s);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const ord=n=>{const s=["th","st","nd","rd"],v=n%100;return n+(s[(v-20)%10]||s[v]||s[0]);};
+const allRaces=p=>p.seasons.flatMap(s=>s.races);
+const scored=p=>allRaces(p).filter(x=>x.place!=null);
+function stats(p){
+  const sc=scored(p);
+  const wins=sc.filter(x=>x.place===1).length;
+  const pods=sc.filter(x=>x.place<=3).length;
+  const top5=sc.filter(x=>x.place<=5).length;
+  const best=sc.reduce((m,x)=>Math.min(m,x.place),99);
+  return {count:allRaces(p).length, sailed:sc.length, wins, pods, top5, best,
+    podRate:Math.round(100*pods/sc.length), years:p.seasons.length};
+}
+// fleet strength percentile: 100 = won, 0 = last. For field of 1 -> 100.
+const pct=x=>x.fleet>1 ? Math.round(100*(x.fleet-x.place)/(x.fleet-1)) : 100;
+function finishBadge(x){
+  if(x.place==null) return '<span class="b-na">Reserve</span>';
+  const lbl=x.place+' / '+x.fleet+(x.div?' · '+x.div:'');
+  if(x.place===1) return '<span class="badge b-win">🏆 '+lbl+'</span>';
+  if(x.place<=3) return '<span class="badge b-pod">'+lbl+'</span>';
+  if(x.place<=5) return '<span class="badge b-top">'+lbl+'</span>';
+  return '<span class="b-mid tnum">'+lbl+'</span>';
+}
+
+/* ============================ LIVE tab ============================ */
+function liveCard(key){
+  const p=DATA[key], L=p.live, cls=p.cls_color;
+  if(!L) return `<div class="no-live"><b>${esc(p.first)}</b> isn't racing right now. Check the ${esc(p.first)} tab for recent results.</div>`;
+  const posPctPlace=L.fleet>1?100*(L.place-1)/(L.fleet-1):0;
+  const posPctTeam=L.teamField>1?100*(L.teamPlace-1)/(L.teamField-1):0;
+  return `
+  <div class="lcard ${cls}">
+    <div class="lc-top">
+      <div class="avatar">${p.initials}</div>
+      <div style="min-width:0">
+        <div class="lc-name">${esc(p.first)} ${esc(p.last)}</div>
+        <div class="lc-meta">${esc(p.team)} · ${esc(p.year)} ('${String(p.cls).slice(2)})</div>
+      </div>
+      <span class="livechip"><span class="dot"></span>Live</span>
+    </div>
+    <div class="lc-reg">${esc(L.reg)}<span class="host">Hosted by ${esc(L.host)} · ${esc(L.pos)}, ${esc(L.div)} Division</span></div>
+    <div class="standrow">
+      <div class="stbox">
+        <div class="l">${esc(p.first)} — individual</div>
+        <div class="v">${ord(L.place)}<small> / ${L.fleet}</small></div>
+        <div class="sub">in ${esc(L.div)} Division</div>
+      </div>
+      <div class="stbox">
+        <div class="l">${esc(p.team)} — team</div>
+        <div class="v">${sup(L.teamPlace)}<small> / ${L.teamField}</small></div>
+        <div class="sub">overall standing</div>
+      </div>
+    </div>
+    <div class="fleetbar">
+      <div class="fl-l"><span>${esc(p.first)}'s spot in the fleet</span><span>1st → ${L.fleet}th</span></div>
+      <div class="track"><div class="pin" style="left:${posPctPlace}%"></div></div>
+    </div>
+    <div style="font-size:.8rem;color:var(--muted);margin-top:12px">${esc(L.note)}</div>
+    <a class="livelink" href="${L.url}" target="_blank" rel="noopener">Live on TechScore ↗</a>
+  </div>`;
+}
+function sup(n){ // ordinal suffix as small
+  if(!n) return '';
+  const s=ord(n); return s.replace(/(st|nd|rd|th)$/,'<small>$1</small>');
+}
+function renderLive(){
+  const z=DATA.zoey.live, c=DATA.crue.live;
+  const anyLive = z||c;
+  $('#p-live').innerHTML=`
+    <div class="livehero">
+      <span class="eyebrow">Saturday, October 18 · 2026</span>
+      <h2>${anyLive?'Both are on the water.':'Racing results'}</h2>
+      <p>${anyLive
+        ? 'Zoey and Crue are each mid-regatta right now. Positions update as races are scored — tap “Live on TechScore” on either card for the ticking source.'
+        : 'No active regattas at the moment.'}</p>
+    </div>
+    <div class="live-grid">
+      ${liveCard('zoey')}
+      ${liveCard('crue')}
+    </div>`;
+}
+
+/* ============================ sailor tab ============================ */
+function tileRow(p){
+  const s=stats(p);
+  const cls=p.cls_color;
+  return `<div class="tiles" style="--acc:var(--${cls==='z'?'zoey':'crue'})">
+    <div class="tile accent"><div class="v tnum">${s.sailed}</div><div class="l">Regattas scored</div></div>
+    <div class="tile accent"><div class="v tnum">${s.wins}</div><div class="l">Wins (1st)</div></div>
+    <div class="tile accent"><div class="v tnum">${s.pods}</div><div class="l">Podiums (top 3)</div></div>
+    <div class="tile"><div class="v tnum">${s.top5}</div><div class="l">Top-5 finishes</div></div>
+    <div class="tile"><div class="v tnum">${ord(s.best)}</div><div class="l">Best finish</div></div>
+    <div class="tile"><div class="v tnum">${s.podRate}<small>%</small></div><div class="l">Podium rate</div></div>
+  </div>`;
+}
+function historyTable(p){
+  let rows='';
+  p.seasons.forEach(se=>{
+    const n=se.races.filter(x=>x.place!=null).length;
+    rows+=`<tr class="seasonhdr"><td colspan="4">${esc(se.label)} <span class="cnt">· ${se.races.length} regatta${se.races.length>1?'s':''}</span></td></tr>`;
+    se.races.forEach(x=>{
+      rows+=`<tr>
+        <td class="rname">${esc(x.name)}<div class="rhost">${esc(x.host)}</div></td>
+        <td class="pos">${esc(x.date)}</td>
+        <td class="pos">${esc(x.position)}</td>
+        <td>${finishBadge(x)}</td>
+      </tr>`;
+    });
+  });
+  return `<div class="tablewrap"><table>
+    <caption>Career results — ${esc(p.first)} ${esc(p.last)}</caption>
+    <thead><tr><th>Regatta</th><th>Date</th><th>Role</th><th>Finish</th></tr></thead>
+    <tbody>${rows}</tbody></table></div>`;
+}
+function renderSailor(key){
+  const p=DATA[key], cls=p.cls_color;
+  const accName=cls==='z'?'zoey':'crue';
+  $('#p-'+key).innerHTML=`
+    <span class="eyebrow">${esc(p.school)} · ${esc(p.conf)}</span>
+    <h2 class="sec-h">${esc(p.first)} ${esc(p.last)} <span style="color:var(--muted);font-weight:400;font-size:1rem">'${String(p.cls).slice(2)} · ${esc(p.year)}</span></h2>
+    <div class="sec-sub">${p.seasons.length} seasons on the water · skipper for the ${esc(p.team)}</div>
+    ${tileRow(p)}
+    <div class="panel ${cls}">
+      <div class="panel-h">
+        <h3>Finish strength over time</h3>
+        <span class="hint">Higher = nearer the top of the fleet. Normalizes across fleet & team-race field sizes. Hover a point for the race.</span>
+      </div>
+      <div class="chartbox">${trendSVG(p)}</div>
+      <div class="legend">
+        <span><span class="lg-dot" style="background:var(--gold-mark)"></span>Win (1st)</span>
+        <span><span class="lg-dot" style="background:var(--${accName})"></span>Podium (top 3)</span>
+        <span><span class="lg-dot" style="background:var(--surface-3);border:1px solid var(--line-2)"></span>Other finish</span>
+      </div>
+    </div>
+    ${historyTable(p)}`;
+}
+
+/* ---------- trend chart (SVG, single series, inverted percentile) ---------- */
+function trendSVG(p){
+  // chronological: oldest season/ race first so time reads left -> right
+  const chronSeasons=p.seasons.slice().reverse().map(se=>({label:se.label, races:se.races.filter(x=>x.place!=null).slice().reverse()})).filter(s=>s.races.length);
+  const sc=chronSeasons.flatMap(s=>s.races);
+  const W=820,H=300,mL=40,mR=16,mT=16,mB=46;
+  const pw=W-mL-mR, ph=H-mT-mB;
+  const n=sc.length;
+  const xFor=i=> n>1 ? mL + pw*i/(n-1) : mL+pw/2;
+  const yFor=v=> mT + ph*(1-v/100);
+  // gridlines at 0,25,50,75,100
+  let grid='', yl='';
+  [0,25,50,75,100].forEach(g=>{
+    const y=yFor(g);
+    grid+=`<line x1="${mL}" y1="${y.toFixed(1)}" x2="${W-mR}" y2="${y.toFixed(1)}" stroke="var(--line)" stroke-width="1" ${g===0?'':'stroke-dasharray="2 4"'}/>`;
+    const lbl=g===100?'Top':g===0?'Last':g+'';
+    yl+=`<text x="${mL-8}" y="${(y+4).toFixed(1)}" text-anchor="end" font-size="11" fill="var(--faint)">${lbl}</text>`;
+  });
+  // season dividers + labels
+  let seas='';
+  let idx=0;
+  chronSeasons.forEach((se)=>{
+    const races=se.races;
+    const startI=idx, endI=idx+races.length-1;
+    const xs=xFor(startI), xe=xFor(endI);
+    const xmid=(xs+xe)/2;
+    if(startI>0){
+      const xdiv=(xFor(startI-1)+xs)/2;
+      seas+=`<line x1="${xdiv.toFixed(1)}" y1="${mT}" x2="${xdiv.toFixed(1)}" y2="${mT+ph}" stroke="var(--line-2)" stroke-width="1" stroke-dasharray="1 5" opacity=".7"/>`;
+    }
+    seas+=`<text x="${xmid.toFixed(1)}" y="${H-mB+22}" text-anchor="middle" font-size="10.5" fill="var(--faint)" font-weight="600">${esc(se.label.replace(' 20',"'"))}</text>`;
+    idx+=races.length;
+  });
+  // line + area path
+  const pts=sc.map((x,i)=>({x:xFor(i),y:yFor(pct(x)),d:x,v:pct(x)}));
+  const line=pts.map((pt,i)=>(i?'L':'M')+pt.x.toFixed(1)+' '+pt.y.toFixed(1)).join(' ');
+  const area=`M${pts[0].x.toFixed(1)} ${yFor(0).toFixed(1)} `+pts.map(pt=>'L'+pt.x.toFixed(1)+' '+pt.y.toFixed(1)).join(' ')+` L${pts[n-1].x.toFixed(1)} ${yFor(0).toFixed(1)} Z`;
+  const accVar = p.cls_color==='z'?'--zoey':'--crue';
+  const gid='g'+p.cls_color;
+  // markers + hit targets
+  let marks='', hits='';
+  pts.forEach((pt,i)=>{
+    const x=pt.d;
+    let fill,stroke,rad;
+    if(x.place===1){fill='var(--gold-mark)';stroke='var(--gold-mark)';rad=5;}
+    else if(x.place<=3){fill=`var(${accVar})`;stroke=`var(${accVar})`;rad=4;}
+    else{fill='var(--surface)';stroke=`var(${accVar})`;rad=3.5;}
+    marks+=`<circle cx="${pt.x.toFixed(1)}" cy="${pt.y.toFixed(1)}" r="${rad}" fill="${fill}" stroke="${stroke}" stroke-width="2"/>`;
+    const tip=`${esc(x.name)} · ${esc(x.host)}|${esc(x.date)} — ${x.place==null?'Reserve':(ord(x.place)+' of '+x.fleet+(x.div?' ('+x.div+' Div)':''))}`;
+    hits+=`<circle cx="${pt.x.toFixed(1)}" cy="${pt.y.toFixed(1)}" r="13" fill="transparent" class="hit" data-tip="${esc(tip)}" style="cursor:pointer"/>`;
+  });
+  return `<svg class="trend" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(p.first)}'s finish strength over time">
+    <defs><linearGradient id="${gid}" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="var(${accVar})" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="var(${accVar})" stop-opacity="0"/>
+    </linearGradient></defs>
+    ${grid}${seas}
+    <path d="${area}" fill="url(#${gid})"/>
+    <path d="${line}" fill="none" stroke="var(${accVar})" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+    ${marks}${yl}${hits}
+  </svg>`;
+}
+
+/* ============================ teams tab ============================ */
+function placeClass(place,field){
+  const p=+place;
+  if(p===1) return 'b-win'; if(p<=3) return 'b-pod'; if(p<=5) return 'b-top'; return '';
+}
+function teamCard(t){
+  const now=t.now.map(e=>`
+    <div class="nowrow">
+      <div class="nm">${esc(e.reg)}<span class="h">${esc(e.host)}</span></div>
+      <span class="statuschip ${e.live?'sc-live':'sc-done'}">${esc(e.status)}</span>
+      <a href="${e.link}" target="_blank" rel="noopener" style="text-decoration:none"><span class="placepill">${esc(e.place)}<small style="color:var(--muted);font-weight:500;font-size:.7rem"> /${e.field}</small></span></a>
+    </div>`).join('');
+  let rows='';
+  t.season.forEach(x=>{
+    const [name,host,date,place,field]=x;
+    const cls=placeClass(place,field);
+    const pl = cls? `<span class="badge ${cls}">${place} / ${field}</span>` : `<span class="b-mid tnum">${place} / ${field}</span>`;
+    rows+=`<tr><td class="rname">${esc(name)}<div class="rhost">${esc(host)}</div></td><td class="pos">${esc(date)}</td><td>${pl}</td></tr>`;
+  });
+  return `<div class="pcard ${t.cls_color}">
+    <div class="tm-head">
+      <div class="crest">${esc(t.short)}</div>
+      <div><div class="tm-name">${esc(t.name)}</div><div class="tm-sub">${esc(t.conf)} · ${t.regattas} regattas · Fall 2026</div></div>
+    </div>
+    <div>
+      <div class="eyebrow" style="margin-bottom:8px">Sailing now</div>
+      <div class="nowlist">${now}</div>
+    </div>
+    <div class="tablewrap" style="margin-top:4px"><table style="min-width:420px">
+      <caption>Fall 2026 results</caption>
+      <thead><tr><th>Regatta</th><th>Date</th><th>Place</th></tr></thead>
+      <tbody>${rows}</tbody></table></div>
+    <a class="linkbtn" href="${t.url}" target="_blank" rel="noopener" style="text-align:center;text-decoration:none">Full team page on TechScore ↗</a>
+  </div>`;
+}
+function renderTeams(){
+  $('#p-teams').innerHTML=`
+    <span class="eyebrow">NEISA · New England</span>
+    <h2 class="sec-h">The teams</h2>
+    <div class="sec-sub">Harvard and Tufts overall standings this fall. Place shown as finish / field size — a win is 1.</div>
+    <div class="tm-grid">${teamCard(DATA.teams.harvard)}${teamCard(DATA.teams.tufts)}</div>`;
+}
+
+/* ============================ tooltip ============================ */
+const tip=$('#tip');
+document.addEventListener('mouseover',e=>{
+  const h=e.target.closest('.hit'); if(!h)return;
+  const [l1,l2]=h.dataset.tip.split('|');
+  tip.innerHTML=`<b>${l1.split(' · ')[0]}</b><br>${l1.split(' · ')[1]||''}<br>${l2}`;
+  const r=h.getBoundingClientRect();
+  tip.style.left=(r.left+r.width/2+scrollX)+'px';
+  tip.style.top=(r.top+scrollY)+'px';
+  tip.style.opacity='1';
+});
+document.addEventListener('mouseout',e=>{ if(e.target.closest('.hit')) tip.style.opacity='0'; });
+
+/* ============================ tabs + boot ============================ */
+const tabs=[...document.querySelectorAll('.tab')];
+const rendered={};
+function show(name){
+  tabs.forEach(t=>t.setAttribute('aria-selected', t.dataset.tab===name));
+  ['live','zoey','crue','teams'].forEach(k=>$('#p-'+k).hidden = k!==name);
+  if(DATA && !rendered[name]){
+    if(name==='live')renderLive();
+    else if(name==='teams')renderTeams();
+    else renderSailor(name);
+    rendered[name]=true;
+  }
+  try{location.hash=name;}catch(e){}
+}
+tabs.forEach(t=>t.addEventListener('click',()=>show(t.dataset.tab)));
+
+// theme toggle
+const root=document.documentElement, tbtn=$('#theme');
+function initTheme(){try{const s=localStorage.getItem('zs-theme');if(s)root.setAttribute('data-theme',s);}catch(e){}}
+tbtn.addEventListener('click',()=>{
+  const cur=root.getAttribute('data-theme');
+  const dark=cur? cur==='dark' : matchMedia('(prefers-color-scheme:dark)').matches;
+  const next=dark?'light':'dark';
+  root.setAttribute('data-theme',next);
+  try{localStorage.setItem('zs-theme',next);}catch(e){}
+});
+
+function setUpdatedChip(){
+  try{
+    const d=new Date(UPDATED);
+    const opts={month:'short',day:'numeric',hour:'numeric',minute:'2-digit',timeZone:'America/New_York'};
+    $('#updated-txt').textContent='Updated '+d.toLocaleString('en-US',opts).replace(',','')+' ET';
+  }catch(e){ $('#updated-txt').textContent='Updated —'; }
+}
+
+initTheme();
+
+// load the results data (regenerated on race weekends), then render
+(function boot(){
+  $('#p-live').innerHTML='<div class="no-live">Loading the latest results…</div>';
+  fetch('./data.json',{cache:'no-store'})
+    .then(r=>{ if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
+    .then(d=>{
+      DATA=d; UPDATED=d.updated;
+      setUpdatedChip();
+      const start=(location.hash||'').replace('#','');
+      show(['live','zoey','crue','teams'].includes(start)?start:'live');
+    })
+    .catch(()=>{
+      $('#updated-txt').textContent='Data unavailable';
+      $('#p-live').innerHTML='<div class="no-live">Couldn’t load the results data right now.<br>'
+        +'See live scores on <a href="https://scores.collegesailing.org" target="_blank" rel="noopener" style="color:var(--crue);font-weight:600">TechScore ↗</a>.</div>';
+    });
+})();
+</script>
