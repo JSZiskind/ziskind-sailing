@@ -1,0 +1,39 @@
+name: Refresh dashboard data
+
+on:
+  schedule:
+    # Race weekends: Sat & Sun, every 2 hours 13:00–23:00 UTC (~9am–7pm US Eastern).
+    # Cron is always UTC. (In EST the window shifts to ~8am–6pm ET — fine.)
+    - cron: "0 13,15,17,19,21,23 * * 6,0"
+  workflow_dispatch: {}   # lets you (or a script) run it on demand
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install deps
+        run: pip install beautifulsoup4 certifi
+      - name: Scrape TechScore -> data.json
+        run: python scrape.py
+      - name: Commit if the data changed
+        run: |
+          if git diff --quiet -- data.json; then
+            echo "No change in data.json."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data.json
+            git commit -m "Refresh results $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi

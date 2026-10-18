@@ -1,175 +1,1085 @@
 {
-  "updated": "2026-10-18T09:30:00-04:00",
+  "updated": "2026-10-18T13:02:17-04:00",
   "zoey": {
-    "first": "Zoey", "last": "Ziskind", "initials": "Z", "cls": 2027, "year": "Junior",
-    "school": "Harvard University", "team": "Crimson", "conf": "NEISA", "cls_color": "z",
+    "first": "Zoey",
+    "last": "Ziskind",
+    "initials": "Z",
+    "cls": 2027,
+    "year": "Senior",
+    "school": "Harvard University",
+    "team": "Crimson",
+    "conf": "NEISA",
+    "cls_color": "z",
     "url": "https://scores.collegesailing.org/sailors/zoey-ziskind/",
     "live": {
-      "reg": "Women's Atlantic Coast Championship Finals", "host": "St. Mary's", "pos": "Skipper",
-      "place": 4, "fleet": 18, "div": "A", "team": "Harvard Crimson", "teamPlace": 1, "teamField": 18,
-      "note": "Only 4 points separate the top four going into Sunday.",
+      "reg": "Women's Atlantic Coast Championship Finals",
+      "host": "St. Mary's",
+      "pos": "Skipper",
+      "place": 4,
+      "fleet": 18,
+      "div": "A",
+      "team": "Harvard Crimson",
+      "teamPlace": 1,
+      "teamField": 18,
+      "note": "Super tight fight for the podium spots with the Harvard Crimson getting it done in the clutch!",
       "url": "https://scores.collegesailing.org/f26/women-atlantic-coast-finals/"
     },
     "seasons": [
-      {"label": "Fall 2026", "races": [
-        {"name": "Stu Nelson @ Connecticut College", "host": "Conn. College", "date": "Oct 10", "position": "Skipper", "place": 7, "fleet": 16, "div": "A"},
-        {"name": "Women's Atlantic Coast Champ. Round 1B", "host": "Bowdoin", "date": "Oct 03", "position": "Skipper", "place": 1, "fleet": 17, "div": "A"},
-        {"name": "Sherman Hoyt Trophy", "host": "Brown", "date": "Sep 27", "position": "Skipper", "place": 6, "fleet": 16, "div": "B"},
-        {"name": "Hatch Brown Trophy", "host": "MIT", "date": "Sep 19", "position": "Skipper", "place": 7, "fleet": 16, "div": "A"},
-        {"name": "Toni Deutsch '58 Trophy", "host": "MIT", "date": "Sep 12", "position": "Skipper", "place": 1, "fleet": 17, "div": "A"}
-      ]},
-      {"label": "Spring 2026", "races": [
-        {"name": "Women's Fleet Race Nationals", "host": "South Florida", "date": "May 17", "position": "Skipper", "place": 6, "fleet": 18, "div": "A"},
-        {"name": "Women's Eastern National Semis", "host": "South Florida", "date": "May 15", "position": "Skipper", "place": 4, "fleet": 18, "div": "A"},
-        {"name": "ICSA Women's Team Race Nationals", "host": "Tulane", "date": "Apr 26", "position": "Skipper", "place": 4, "fleet": 15, "div": null},
-        {"name": "NEISA Women's Fleet Race Champ. (Reed)", "host": "Coast Guard", "date": "Apr 18", "position": "Skipper", "place": 4, "fleet": 15, "div": "A"},
-        {"name": "NEISA Women's Team Race Champ. (Legler)", "host": "Tufts", "date": "Apr 11", "position": "Skipper", "place": 4, "fleet": 10, "div": null},
-        {"name": "Yale Women's", "host": "Yale", "date": "Apr 04", "position": "Skipper", "place": 1, "fleet": 5, "div": null},
-        {"name": "Dellenbaugh Women's Team Race", "host": "Brown", "date": "Mar 28", "position": "Skipper", "place": 4, "fleet": 12, "div": null},
-        {"name": "Duplin Women's Team Race", "host": "Tufts", "date": "Mar 21", "position": "Skipper", "place": 6, "fleet": 10, "div": null},
-        {"name": "CofC Women's Team Race", "host": "Charleston", "date": "Mar 14", "position": "Skipper", "place": 1, "fleet": 5, "div": null},
-        {"name": "Jen Harris Team Race", "host": "Navy", "date": "Mar 07", "position": "Skipper", "place": 4, "fleet": 12, "div": null},
-        {"name": "Harvard Women's Team Race", "host": "Harvard", "date": "Mar 01", "position": "Skipper", "place": 5, "fleet": 9, "div": null}
-      ]},
-      {"label": "Fall 2025", "races": [
-        {"name": "The Victorian Urn Trophy", "host": "Harvard", "date": "Oct 25", "position": "Skipper", "place": 2, "fleet": 15, "div": "A"},
-        {"name": "Yale Women's Interconference", "host": "Yale", "date": "Oct 18", "position": "Skipper", "place": 6, "fleet": 18, "div": "A"},
-        {"name": "Women's Atlantic Coast Champ. Finals", "host": "MIT", "date": "Oct 11", "position": "Skipper", "place": 4, "fleet": 18, "div": "A"},
-        {"name": "Stu Nelson @ Connecticut College", "host": "Conn. College", "date": "Oct 04", "position": "Skipper", "place": 1, "fleet": 17, "div": "A"},
-        {"name": "Women's Atlantic Coast Champ. Round 1B", "host": "Navy", "date": "Sep 27", "position": "Skipper", "place": 7, "fleet": 18, "div": "A"},
-        {"name": "The 27th Mrs. Hurst Bowl", "host": "Dartmouth", "date": "Sep 20", "position": "Skipper", "place": 9, "fleet": 17, "div": "A"},
-        {"name": "Regis Trophy", "host": "Boston University", "date": "Sep 13", "position": "Skipper", "place": 3, "fleet": 18, "div": "A"},
-        {"name": "Toni Deutsch '58 Trophy", "host": "MIT", "date": "Sep 06", "position": "Skipper", "place": 1, "fleet": 17, "div": "A"}
-      ]},
-      {"label": "Spring 2025", "races": [
-        {"name": "Open Fleet Race Nationals", "host": "St. Mary's", "date": "May 29", "position": "Reserve", "place": null, "fleet": 18, "div": null},
-        {"name": "Women's Fleet Race Nationals", "host": "St. Mary's", "date": "May 22", "position": "Skipper", "place": 4, "fleet": 18, "div": "B"},
-        {"name": "Women's Eastern National Semis", "host": "St. Mary's", "date": "May 20", "position": "Skipper", "place": 3, "fleet": 18, "div": "B"},
-        {"name": "ICSA Women's Team Race Nationals", "host": "Brown", "date": "Apr 27", "position": "Skipper", "place": 3, "fleet": 12, "div": null},
-        {"name": "NEISA Spring Women's Fleet Race Champ.", "host": "Yale", "date": "Apr 19", "position": "Skipper", "place": 3, "fleet": 17, "div": "B"},
-        {"name": "NEISA Women's TR Champs (Legler)", "host": "Brown", "date": "Apr 12", "position": "Skipper", "place": 5, "fleet": 10, "div": null},
-        {"name": "Yale Women's Team Race", "host": "Yale", "date": "Apr 05", "position": "Skipper", "place": 2, "fleet": 8, "div": null},
-        {"name": "Dellenbaugh Women's Team Race", "host": "Brown", "date": "Mar 29", "position": "Skipper", "place": 4, "fleet": 10, "div": null},
-        {"name": "The Duplin Trophy", "host": "Harvard", "date": "Mar 22", "position": "Skipper", "place": 3, "fleet": 9, "div": null},
-        {"name": "Southern New England Women's Team Race", "host": "Conn. College", "date": "Mar 15", "position": "Skipper", "place": 2, "fleet": 6, "div": null},
-        {"name": "Jen Harris Women's Team Race", "host": "Navy", "date": "Mar 08", "position": "Skipper", "place": 6, "fleet": 12, "div": null},
-        {"name": "Women's Team Race", "host": "Harvard", "date": "Mar 01", "position": "Skipper", "place": 6, "fleet": 6, "div": null}
-      ]},
-      {"label": "Fall 2024", "races": [
-        {"name": "Women's Urn Trophy / NEISA Fall Champs", "host": "Brown", "date": "Oct 26", "position": "Skipper", "place": 1, "fleet": 17, "div": "B"},
-        {"name": "Yale Women's Interconference", "host": "Yale", "date": "Oct 19", "position": "Skipper", "place": 3, "fleet": 15, "div": "A"},
-        {"name": "Women's Atlantic Coast Champ. Finals", "host": "Navy", "date": "Oct 12", "position": "Skipper", "place": 6, "fleet": 18, "div": "B"},
-        {"name": "Women's ACC Round 1A", "host": "Conn. College", "date": "Sep 28", "position": "Skipper", "place": 1, "fleet": 18, "div": "B"},
-        {"name": "Eagle Invite", "host": "Boston College", "date": "Sep 21", "position": "Skipper", "place": 4, "fleet": 6, "div": null},
-        {"name": "Regis Trophy", "host": "Boston University", "date": "Sep 14", "position": "Skipper", "place": 4, "fleet": 18, "div": "A"},
-        {"name": "Toni Deutsch '58 Trophy", "host": "MIT", "date": "Sep 07", "position": "Skipper", "place": 7, "fleet": 18, "div": "A"}
-      ]},
-      {"label": "Spring 2024", "races": [
-        {"name": "Women's Dinghy National Championship", "host": "MIT", "date": "May 22", "position": "Skipper", "place": 6, "fleet": 18, "div": "B"},
-        {"name": "Western Women's National Semi-finals", "host": "Harvard", "date": "May 20", "position": "Skipper", "place": 6, "fleet": 18, "div": "B"},
-        {"name": "ICSA Women's Team Race Nationals", "host": "Harvard/MIT", "date": "Apr 28", "position": "Skipper", "place": 5, "fleet": 12, "div": null},
-        {"name": "Women's New England Fleet Race Champ.", "host": "Bowdoin", "date": "Apr 20", "position": "Skipper", "place": 5, "fleet": 16, "div": "B"},
-        {"name": "NEISA Women's Team Race Champs (Legler)", "host": "Harvard", "date": "Apr 13", "position": "Skipper", "place": 3, "fleet": 10, "div": null},
-        {"name": "Yale Women's Team Race", "host": "Yale", "date": "Apr 06", "position": "Skipper", "place": 4, "fleet": 6, "div": null},
-        {"name": "Dellenbaugh Women's Team Race", "host": "Brown", "date": "Mar 30", "position": "Skipper", "place": 10, "fleet": 11, "div": null},
-        {"name": "The Duplin Trophy", "host": "Harvard", "date": "Mar 23", "position": "Skipper", "place": 3, "fleet": 10, "div": null},
-        {"name": "Bob Bavier Open Team Race", "host": "Charleston", "date": "Mar 09", "position": "Skipper", "place": 4, "fleet": 7, "div": null},
-        {"name": "Harvard Women's Team Race", "host": "Harvard", "date": "Mar 02", "position": "Skipper", "place": 5, "fleet": 9, "div": null}
-      ]},
-      {"label": "Fall 2023", "races": [
-        {"name": "The Victorian Urn Trophy", "host": "Harvard", "date": "Oct 28", "position": "Reserve", "place": null, "fleet": 15, "div": null},
-        {"name": "Oberg Trophy", "host": "Northeastern", "date": "Oct 21", "position": "Skipper", "place": 1, "fleet": 17, "div": "B"},
-        {"name": "Nevins Trophy", "host": "Kings Point", "date": "Oct 14", "position": "Skipper", "place": 13, "fleet": 18, "div": "B"},
-        {"name": "Stu Nelson", "host": "Conn. College", "date": "Oct 07", "position": "Skipper", "place": 1, "fleet": 16, "div": "C"},
-        {"name": "The George Warren Smith Trophy", "host": "MIT", "date": "Sep 30", "position": "Skipper", "place": 4, "fleet": 17, "div": "A"},
-        {"name": "Eagle Invite", "host": "Boston College", "date": "Sep 23", "position": "Skipper", "place": 4, "fleet": 6, "div": null},
-        {"name": "NEISA Women's Singlehanded Champ.", "host": "Brown", "date": "Sep 16", "position": "Skipper", "place": 9, "fleet": 10, "div": null}
-      ]}
+      {
+        "label": "Fall 2026",
+        "races": [
+          {
+            "name": "Stu Nelson @ Connecticut College 2026",
+            "host": "Connecticut College",
+            "date": "Oct 10",
+            "position": "Skipper",
+            "place": 7,
+            "fleet": 16,
+            "div": "A"
+          },
+          {
+            "name": "Women's Atlantic Coast Championship Round 1 B",
+            "host": "Bowdoin",
+            "date": "Oct 03",
+            "position": "Skipper",
+            "place": 1,
+            "fleet": 17,
+            "div": "A"
+          },
+          {
+            "name": "Sherman Hoyt Trophy",
+            "host": "Brown",
+            "date": "Sep 27",
+            "position": "Skipper",
+            "place": 6,
+            "fleet": 16,
+            "div": "B"
+          },
+          {
+            "name": "Hatch Brown Trophy 2026",
+            "host": "MIT",
+            "date": "Sep 19",
+            "position": "Skipper",
+            "place": 7,
+            "fleet": 16,
+            "div": "A"
+          },
+          {
+            "name": "Toni Deutsch '58 Trophy 2026",
+            "host": "MIT",
+            "date": "Sep 12",
+            "position": "Skipper",
+            "place": 1,
+            "fleet": 17,
+            "div": "A"
+          }
+        ]
+      },
+      {
+        "label": "Spring 2026",
+        "races": [
+          {
+            "name": "Women's Fleet Race National Championhips",
+            "host": "South Florida",
+            "date": "May 17",
+            "position": "Skipper",
+            "place": 6,
+            "fleet": 18,
+            "div": "A"
+          },
+          {
+            "name": "Women's Eastern National Semis",
+            "host": "South Florida",
+            "date": "May 15",
+            "position": "Skipper",
+            "place": 4,
+            "fleet": 18,
+            "div": "A"
+          },
+          {
+            "name": "ICSA Women's Team Race National Championship",
+            "host": "Tulane",
+            "date": "Apr 26",
+            "position": "Skipper",
+            "place": 4,
+            "fleet": 15,
+            "div": null
+          },
+          {
+            "name": "NEISA Women's Fleet Race Championship -Reed Trophy",
+            "host": "Coast Guard",
+            "date": "Apr 18",
+            "position": "Skipper",
+            "place": 4,
+            "fleet": 15,
+            "div": "A"
+          },
+          {
+            "name": "NEISA Women's Team Race Championship - Legler",
+            "host": "Tufts",
+            "date": "Apr 11",
+            "position": "Skipper",
+            "place": 4,
+            "fleet": 10,
+            "div": null
+          },
+          {
+            "name": "Yale Women's",
+            "host": "Yale",
+            "date": "Apr 04",
+            "position": "Skipper",
+            "place": 1,
+            "fleet": 5,
+            "div": null
+          },
+          {
+            "name": "Dellenbaugh Women's Team Race Trophy",
+            "host": "Brown",
+            "date": "Mar 28",
+            "position": "Skipper",
+            "place": 4,
+            "fleet": 12,
+            "div": null
+          },
+          {
+            "name": "Duplin Women's Team Race",
+            "host": "Tufts",
+            "date": "Mar 21",
+            "position": "Skipper",
+            "place": 6,
+            "fleet": 10,
+            "div": null
+          },
+          {
+            "name": "CofC Women's Team Race",
+            "host": "Charleston",
+            "date": "Mar 14",
+            "position": "Skipper",
+            "place": 1,
+            "fleet": 5,
+            "div": null
+          },
+          {
+            "name": "2026 Jen Harris Team Race",
+            "host": "Navy",
+            "date": "Mar 07",
+            "position": "Skipper",
+            "place": 4,
+            "fleet": 12,
+            "div": null
+          },
+          {
+            "name": "Harvard Women's Team Race",
+            "host": "Harvard",
+            "date": "Mar 01",
+            "position": "Skipper",
+            "place": 5,
+            "fleet": 9,
+            "div": null
+          }
+        ]
+      },
+      {
+        "label": "Fall 2025",
+        "races": [
+          {
+            "name": "The Victorian Urn Trophy",
+            "host": "Harvard",
+            "date": "Oct 25",
+            "position": "Skipper",
+            "place": 2,
+            "fleet": 15,
+            "div": "A"
+          },
+          {
+            "name": "Yale Women's Interconference",
+            "host": "Yale",
+            "date": "Oct 18",
+            "position": "Skipper",
+            "place": 6,
+            "fleet": 18,
+            "div": "A"
+          },
+          {
+            "name": "Women's Atlantic Coast Championships Finals",
+            "host": "MIT",
+            "date": "Oct 11",
+            "position": "Skipper",
+            "place": 4,
+            "fleet": 18,
+            "div": "A"
+          },
+          {
+            "name": "Stu Nelson@ Connecticut College",
+            "host": "Connecticut College",
+            "date": "Oct 04",
+            "position": "Skipper",
+            "place": 1,
+            "fleet": 17,
+            "div": "A"
+          },
+          {
+            "name": "Women's Atlantic Coast Championship Round 1B",
+            "host": "Navy",
+            "date": "Sep 27",
+            "position": "Skipper",
+            "place": 7,
+            "fleet": 18,
+            "div": "A"
+          },
+          {
+            "name": "The 27th Mrs. Hurst Bowl",
+            "host": "Dartmouth",
+            "date": "Sep 20",
+            "position": "Skipper",
+            "place": 9,
+            "fleet": 17,
+            "div": "A"
+          },
+          {
+            "name": "Regis Trophy",
+            "host": "Boston University",
+            "date": "Sep 13",
+            "position": "Skipper",
+            "place": 3,
+            "fleet": 18,
+            "div": "A"
+          },
+          {
+            "name": "Toni Deutsch '58 Trophy 2025",
+            "host": "MIT",
+            "date": "Sep 06",
+            "position": "Skipper",
+            "place": 1,
+            "fleet": 17,
+            "div": "A"
+          }
+        ]
+      },
+      {
+        "label": "Spring 2025",
+        "races": [
+          {
+            "name": "Open Fleet Race National Championships",
+            "host": "St. Mary's",
+            "date": "May 29",
+            "position": "Reserve",
+            "place": null,
+            "fleet": null,
+            "div": null
+          },
+          {
+            "name": "Women's Fleet Race National Championships",
+            "host": "St. Mary's",
+            "date": "May 22",
+            "position": "Skipper",
+            "place": 4,
+            "fleet": 18,
+            "div": "B"
+          },
+          {
+            "name": "Women's Eastern National Semi Finals",
+            "host": "St. Mary's",
+            "date": "May 20",
+            "position": "Skipper",
+            "place": 3,
+            "fleet": 18,
+            "div": "B"
+          },
+          {
+            "name": "ICSA Women's Team Race National Championship",
+            "host": "Brown",
+            "date": "Apr 27",
+            "position": "Skipper",
+            "place": 3,
+            "fleet": 12,
+            "div": null
+          },
+          {
+            "name": "NEISA Spring Women's Fleet Race Championship",
+            "host": "Yale",
+            "date": "Apr 19",
+            "position": "Skipper",
+            "place": 3,
+            "fleet": 17,
+            "div": "B"
+          },
+          {
+            "name": "NEISA Women's TR Champs - Legler Trophy",
+            "host": "Brown",
+            "date": "Apr 12",
+            "position": "Skipper",
+            "place": 5,
+            "fleet": 10,
+            "div": null
+          },
+          {
+            "name": "Yale Women's Team Race",
+            "host": "Yale",
+            "date": "Apr 05",
+            "position": "Skipper",
+            "place": 2,
+            "fleet": 8,
+            "div": null
+          },
+          {
+            "name": "Dellenbaugh Women's Team Race Trophy",
+            "host": "Brown",
+            "date": "Mar 29",
+            "position": "Skipper",
+            "place": 4,
+            "fleet": 104,
+            "div": null
+          },
+          {
+            "name": "The Duplin Trophy",
+            "host": "Harvard",
+            "date": "Mar 22",
+            "position": "Skipper",
+            "place": 3,
+            "fleet": 9,
+            "div": null
+          },
+          {
+            "name": "Southern New England Women's Team Race",
+            "host": "Connecticut College",
+            "date": "Mar 15",
+            "position": "Skipper",
+            "place": 2,
+            "fleet": 62,
+            "div": null
+          },
+          {
+            "name": "Jen Harris Women's Team Race",
+            "host": "Navy",
+            "date": "Mar 08",
+            "position": "Skipper",
+            "place": 6,
+            "fleet": 12,
+            "div": null
+          },
+          {
+            "name": "Women's Team Race",
+            "host": "Harvard",
+            "date": "Mar 01",
+            "position": "Skipper",
+            "place": 6,
+            "fleet": 6,
+            "div": null
+          }
+        ]
+      },
+      {
+        "label": "Fall 2024",
+        "races": [
+          {
+            "name": "Women's Urn Trophy/NEISA Women’s Fall Champs",
+            "host": "Brown",
+            "date": "Oct 26",
+            "position": "Skipper",
+            "place": 1,
+            "fleet": 17,
+            "div": "B"
+          },
+          {
+            "name": "Yale Women's Interconference",
+            "host": "Yale",
+            "date": "Oct 19",
+            "position": "Skipper",
+            "place": 3,
+            "fleet": 15,
+            "div": "A"
+          },
+          {
+            "name": "Women's Atlantic Coast Championship Finals",
+            "host": "Navy",
+            "date": "Oct 12",
+            "position": "Skipper",
+            "place": 6,
+            "fleet": 18,
+            "div": "B"
+          },
+          {
+            "name": "Women's ACC Round 1A",
+            "host": "Connecticut College",
+            "date": "Sep 28",
+            "position": "Skipper",
+            "place": 1,
+            "fleet": 18,
+            "div": "B"
+          },
+          {
+            "name": "Eagle Invite",
+            "host": "Boston College",
+            "date": "Sep 21",
+            "position": "Skipper",
+            "place": 4,
+            "fleet": 6,
+            "div": null
+          },
+          {
+            "name": "Regis Trophy",
+            "host": "Boston University",
+            "date": "Sep 14",
+            "position": "Skipper",
+            "place": 4,
+            "fleet": 18,
+            "div": "A"
+          },
+          {
+            "name": "Toni Deutsch '58 Trophy 2024",
+            "host": "MIT",
+            "date": "Sep 07",
+            "position": "Skipper",
+            "place": 7,
+            "fleet": 18,
+            "div": "A"
+          }
+        ]
+      },
+      {
+        "label": "Spring 2024",
+        "races": [
+          {
+            "name": "Women's Dinghy National Championship",
+            "host": "MIT",
+            "date": "May 22",
+            "position": "Skipper",
+            "place": 6,
+            "fleet": 18,
+            "div": "B"
+          },
+          {
+            "name": "Western Women’s National Semi-finals",
+            "host": "Harvard",
+            "date": "May 20",
+            "position": "Skipper",
+            "place": 6,
+            "fleet": 18,
+            "div": "B"
+          },
+          {
+            "name": "ICSA Women's Team Race National Championship",
+            "host": "Harvard/MIT",
+            "date": "Apr 28",
+            "position": "Skipper",
+            "place": 5,
+            "fleet": 12,
+            "div": null
+          },
+          {
+            "name": "Women's New England Fleet Race Championship",
+            "host": "Bowdoin",
+            "date": "Apr 20",
+            "position": "Skipper",
+            "place": 5,
+            "fleet": 16,
+            "div": "B"
+          },
+          {
+            "name": "NEISA Women’s Team Race Champs/Legler Trophy",
+            "host": "Harvard",
+            "date": "Apr 13",
+            "position": "Skipper",
+            "place": 3,
+            "fleet": 10,
+            "div": null
+          },
+          {
+            "name": "Yale Women's Team Race",
+            "host": "Yale",
+            "date": "Apr 06",
+            "position": "Skipper",
+            "place": 4,
+            "fleet": 6,
+            "div": null
+          },
+          {
+            "name": "Dellenbaugh Women's Team Race Trophy",
+            "host": "Brown",
+            "date": "Mar 30",
+            "position": "Skipper",
+            "place": 10,
+            "fleet": 11,
+            "div": null
+          },
+          {
+            "name": "The Duplin Trophy",
+            "host": "Harvard",
+            "date": "Mar 23",
+            "position": "Skipper",
+            "place": 3,
+            "fleet": 10,
+            "div": null
+          },
+          {
+            "name": "Bob Bavier Open Team Race",
+            "host": "Charleston",
+            "date": "Mar 09",
+            "position": "Skipper",
+            "place": 4,
+            "fleet": 7,
+            "div": null
+          },
+          {
+            "name": "Harvard Women's Team Race",
+            "host": "Harvard",
+            "date": "Mar 02",
+            "position": "Skipper",
+            "place": 5,
+            "fleet": 9,
+            "div": null
+          }
+        ]
+      },
+      {
+        "label": "Fall 2023",
+        "races": [
+          {
+            "name": "The Victorian Urn Trophy",
+            "host": "Harvard",
+            "date": "Oct 28",
+            "position": "Reserve",
+            "place": null,
+            "fleet": null,
+            "div": null
+          },
+          {
+            "name": "Oberg Trophy",
+            "host": "Northeastern",
+            "date": "Oct 21",
+            "position": "Skipper",
+            "place": 1,
+            "fleet": 17,
+            "div": "B"
+          },
+          {
+            "name": "Nevins Trophy",
+            "host": "Kings Point",
+            "date": "Oct 14",
+            "position": "Skipper",
+            "place": 13,
+            "fleet": 18,
+            "div": "B"
+          },
+          {
+            "name": "Stu Nelson",
+            "host": "Connecticut College",
+            "date": "Oct 07",
+            "position": "Skipper",
+            "place": 1,
+            "fleet": 16,
+            "div": "C"
+          },
+          {
+            "name": "The George Warren Smith Trophy",
+            "host": "MIT",
+            "date": "Sep 30",
+            "position": "Skipper",
+            "place": 4,
+            "fleet": 17,
+            "div": "A"
+          },
+          {
+            "name": "Eagle Invite",
+            "host": "Boston College",
+            "date": "Sep 23",
+            "position": "Skipper",
+            "place": 4,
+            "fleet": 6,
+            "div": null
+          },
+          {
+            "name": "NEISA Women's Singlehanded Championship",
+            "host": "Brown",
+            "date": "Sep 16",
+            "position": "Skipper",
+            "place": 9,
+            "fleet": 10,
+            "div": null
+          }
+        ]
+      }
     ]
   },
   "crue": {
-    "first": "Crue", "last": "Ziskind", "initials": "C", "cls": 2029, "year": "Sophomore",
-    "school": "Tufts University", "team": "Jumbos", "conf": "NEISA", "cls_color": "c",
+    "first": "Crue",
+    "last": "Ziskind",
+    "initials": "C",
+    "cls": 2029,
+    "year": "Sophomore",
+    "school": "Tufts University",
+    "team": "Jumbos",
+    "conf": "NEISA",
+    "cls_color": "c",
     "url": "https://scores.collegesailing.org/sailors/crue-ziskind/",
     "live": {
-      "reg": "Nevins Trophy", "host": "Kings Point", "pos": "Skipper",
-      "place": 14, "fleet": 18, "div": "A", "team": "Tufts Jumbos", "teamPlace": 7, "teamField": 18,
-      "note": "Stanford dominating; a tight pack behind going into day two.",
+      "reg": "Nevins Trophy",
+      "host": "Kings Point",
+      "pos": "Skipper",
+      "place": 9,
+      "fleet": 18,
+      "div": "A",
+      "team": "Tufts Jumbos",
+      "teamPlace": 4,
+      "teamField": 18,
+      "note": "It will be interesting to see how each team reacts to the big change in conditions.",
       "url": "https://scores.collegesailing.org/f26/nevins/"
     },
     "seasons": [
-      {"label": "Fall 2026", "races": [
-        {"name": "Open Atlantic Coast Champ. Round 1A", "host": "St. Mary's", "date": "Oct 10", "position": "Skipper", "place": 5, "fleet": 17, "div": "A"},
-        {"name": "Danmark Trophy", "host": "Coast Guard", "date": "Oct 03", "position": "Skipper", "place": 2, "fleet": 19, "div": "B"},
-        {"name": "Hatch Brown Trophy", "host": "MIT", "date": "Sep 19", "position": "Skipper", "place": 4, "fleet": 16, "div": "C"},
-        {"name": "Bears Invite", "host": "Brown", "date": "Sep 12", "position": "Skipper", "place": 6, "fleet": 18, "div": null}
-      ]},
-      {"label": "Spring 2026", "races": [
-        {"name": "Boston Dinghy Challenge Cup", "host": "MIT", "date": "Apr 18", "position": "Skipper", "place": 2, "fleet": 17, "div": "B"},
-        {"name": "Oberg Trophy", "host": "Northeastern", "date": "Apr 11", "position": "Skipper", "place": 3, "fleet": 18, "div": "C"},
-        {"name": "Mystic Lake Team Race", "host": "Tufts", "date": "Apr 04", "position": "Skipper", "place": 2, "fleet": 8, "div": null},
-        {"name": "Southern NE Team Race", "host": "Conn. College", "date": "Mar 14", "position": "Reserve", "place": null, "fleet": null, "div": null},
-        {"name": "The Wood Trophy", "host": "Harvard", "date": "Mar 07", "position": "Reserve", "place": null, "fleet": null, "div": null}
-      ]},
-      {"label": "Fall 2025", "races": [
-        {"name": "Nickerson Trophy", "host": "Tufts", "date": "Oct 25", "position": "Skipper", "place": 5, "fleet": 14, "div": "B"},
-        {"name": "The Lane Trophy Team Race", "host": "Tufts", "date": "Oct 19", "position": "Skipper", "place": 2, "fleet": 6, "div": null},
-        {"name": "Norman Reid Team Race", "host": "Boston College", "date": "Oct 18", "position": "Skipper", "place": 2, "fleet": 5, "div": null},
-        {"name": "Savin Hill Invite", "host": "Boston College", "date": "Oct 11", "position": "Skipper", "place": 7, "fleet": 14, "div": "A"},
-        {"name": "The George Warren Smith Trophy", "host": "MIT", "date": "Sep 27", "position": "Skipper", "place": 6, "fleet": 18, "div": "A"},
-        {"name": "The Hood Trophy", "host": "Tufts", "date": "Sep 20", "position": "Reserve", "place": null, "fleet": null, "div": null},
-        {"name": "Mystic Lake Invite", "host": "Tufts", "date": "Sep 13", "position": "Skipper", "place": 8, "fleet": 21, "div": null}
-      ]}
+      {
+        "label": "Fall 2026",
+        "races": [
+          {
+            "name": "Open Atlantic Coast Championships Round 1A",
+            "host": "St. Mary's",
+            "date": "Oct 10",
+            "position": "Skipper",
+            "place": 5,
+            "fleet": 17,
+            "div": "A"
+          },
+          {
+            "name": "Danmark Trophy",
+            "host": "Coast Guard",
+            "date": "Oct 03",
+            "position": "Skipper",
+            "place": 2,
+            "fleet": 19,
+            "div": "B"
+          },
+          {
+            "name": "Hatch Brown Trophy 2026",
+            "host": "MIT",
+            "date": "Sep 19",
+            "position": "Skipper",
+            "place": 4,
+            "fleet": 16,
+            "div": "C"
+          },
+          {
+            "name": "Bears Invite",
+            "host": "Brown",
+            "date": "Sep 12",
+            "position": "Skipper",
+            "place": 6,
+            "fleet": 18,
+            "div": null
+          }
+        ]
+      },
+      {
+        "label": "Spring 2026",
+        "races": [
+          {
+            "name": "Boston Dinghy Challenge Cup-2026",
+            "host": "MIT",
+            "date": "Apr 18",
+            "position": "Skipper",
+            "place": 2,
+            "fleet": 17,
+            "div": "B"
+          },
+          {
+            "name": "Oberg Trophy",
+            "host": "Northeastern",
+            "date": "Apr 11",
+            "position": "Skipper",
+            "place": 3,
+            "fleet": 18,
+            "div": "C"
+          },
+          {
+            "name": "Mystic Lake Team Race",
+            "host": "Tufts",
+            "date": "Apr 04",
+            "position": "Skipper",
+            "place": 2,
+            "fleet": 8,
+            "div": null
+          },
+          {
+            "name": "Southern NE Team Race",
+            "host": "Connecticut College",
+            "date": "Mar 14",
+            "position": "Reserve",
+            "place": null,
+            "fleet": null,
+            "div": null
+          },
+          {
+            "name": "The Wood Trophy",
+            "host": "Harvard",
+            "date": "Mar 07",
+            "position": "Reserve",
+            "place": null,
+            "fleet": null,
+            "div": null
+          }
+        ]
+      },
+      {
+        "label": "Fall 2025",
+        "races": [
+          {
+            "name": "Nickerson Trophy",
+            "host": "Tufts",
+            "date": "Oct 25",
+            "position": "Skipper",
+            "place": 5,
+            "fleet": 14,
+            "div": "B"
+          },
+          {
+            "name": "The Lane Trophy Team Race",
+            "host": "Tufts",
+            "date": "Oct 19",
+            "position": "Skipper",
+            "place": 2,
+            "fleet": 6,
+            "div": null
+          },
+          {
+            "name": "Norman Reid Team Race",
+            "host": "Boston College",
+            "date": "Oct 18",
+            "position": "Skipper",
+            "place": 2,
+            "fleet": 52,
+            "div": null
+          },
+          {
+            "name": "Savin Hill Invite",
+            "host": "Boston College",
+            "date": "Oct 11",
+            "position": "Skipper",
+            "place": 7,
+            "fleet": 14,
+            "div": "A"
+          },
+          {
+            "name": "The George Warren Smith Trophy 25",
+            "host": "MIT",
+            "date": "Sep 27",
+            "position": "Skipper",
+            "place": 6,
+            "fleet": 18,
+            "div": "A"
+          },
+          {
+            "name": "The Hood Trophy",
+            "host": "Tufts",
+            "date": "Sep 20",
+            "position": "Reserve",
+            "place": null,
+            "fleet": null,
+            "div": null
+          },
+          {
+            "name": "Mystic Lake Invite",
+            "host": "Tufts",
+            "date": "Sep 13",
+            "position": "Skipper",
+            "place": 8,
+            "fleet": 21,
+            "div": null
+          }
+        ]
+      }
     ]
   },
   "teams": {
     "harvard": {
-      "name": "Harvard Crimson", "short": "HAR", "cls_color": "z", "conf": "NEISA", "regattas": 20,
+      "name": "Harvard Crimson",
+      "short": "HAR",
+      "cls_color": "z",
+      "conf": "NEISA",
+      "regattas": 20,
       "url": "https://scores.collegesailing.org/schools/harvard/",
       "now": [
-        {"reg": "Women's Atlantic Coast Champ. Finals", "host": "St. Mary's", "status": "Finals Sunday", "live": true, "place": "1st", "field": 18, "link": "https://scores.collegesailing.org/f26/women-atlantic-coast-finals/"},
-        {"reg": "The 35th Captain Hurst Bowl", "host": "Dartmouth", "status": "Race 10B", "live": true, "place": "8th", "field": 18, "link": "https://scores.collegesailing.org/f26/35th-captain-hurst-bowl/"}
+        {
+          "reg": "Women's Atlantic Coast Championship Finals",
+          "host": "St. Mary's",
+          "status": "Finished",
+          "live": false,
+          "place": "1st",
+          "field": 18,
+          "link": "https://scores.collegesailing.org/f26/women-atlantic-coast-finals/"
+        },
+        {
+          "reg": "The 35th Captain Hurst Bowl",
+          "host": "Dartmouth",
+          "status": "10B",
+          "live": true,
+          "place": "8th",
+          "field": 18,
+          "link": "https://scores.collegesailing.org/f26/35th-captain-hurst-bowl/"
+        }
       ],
       "season": [
-        ["Stu Nelson @ Conn. College", "Conn. College", "Oct 10", "9", "16"],
-        ["Sister Esther Whalen Trophy", "Salve Regina", "Oct 10", "14", "17"],
-        ["Open Atlantic Coast Champ. Round 1A", "St. Mary's", "Oct 10", "7", "17"],
-        ["Women's Atlantic Coast Champ. Round 1B", "Bowdoin", "Oct 03", "1", "17"],
-        ["Danmark Trophy", "Coast Guard", "Oct 03", "4", "19"],
-        ["Moody Trophy", "Rhode Island", "Oct 03", "9", "17"],
-        ["The George Warren Smith '22 Trophy", "MIT", "Oct 03", "14", "18"],
-        ["Sherman Hoyt Trophy", "Brown", "Sep 27", "7", "16"],
-        ["GLIOR J105 Division", "Chicago", "Sep 26", "7", "10"],
-        ["Regis Trophy", "Boston University", "Sep 19", "15", "17"],
-        ["Hatch Brown Trophy", "MIT", "Sep 19", "8", "16"],
-        ["Harvard Invitational", "Harvard", "Sep 13", "5", "6"],
-        ["Harry H. Anderson Jr. Trophy", "Yale", "Sep 12", "2", "17"],
-        ["Toni Deutsch '58 Trophy", "MIT", "Sep 12", "1", "17"]
+        [
+          "Stu Nelson @ Connecticut College 2026",
+          "Connecticut College",
+          "Oct 10",
+          "9",
+          "16"
+        ],
+        [
+          "Sister Esther Whalen Trophy",
+          "Salve Regina",
+          "Oct 10",
+          "14",
+          "17"
+        ],
+        [
+          "Open Atlantic Coast Championships Round 1A",
+          "St. Mary's",
+          "Oct 10",
+          "7",
+          "17"
+        ],
+        [
+          "Women's Atlantic Coast Championship Round 1 B",
+          "Bowdoin",
+          "Oct 03",
+          "1",
+          "17"
+        ],
+        [
+          "BU Invite",
+          "Boston University",
+          "Oct 03",
+          "9",
+          "9"
+        ],
+        [
+          "Danmark Trophy",
+          "Coast Guard",
+          "Oct 03",
+          "4",
+          "19"
+        ],
+        [
+          "Moody Trophy",
+          "Rhode Island",
+          "Oct 03",
+          "9",
+          "17"
+        ],
+        [
+          "The George Warren Smith '22 Trophy 2026",
+          "MIT",
+          "Oct 03",
+          "14",
+          "18"
+        ],
+        [
+          "Sherman Hoyt Trophy",
+          "Brown",
+          "Sep 27",
+          "7",
+          "16"
+        ],
+        [
+          "GLIOR J105 Division",
+          "Chicago",
+          "Sep 26",
+          "7",
+          "10"
+        ],
+        [
+          "Regis Trophy",
+          "Boston University",
+          "Sep 19",
+          "15",
+          "17"
+        ],
+        [
+          "Mystic Lake Invite",
+          "Tufts",
+          "Sep 19",
+          "6",
+          "6"
+        ],
+        [
+          "Hatch Brown Trophy 2026",
+          "MIT",
+          "Sep 19",
+          "8",
+          "16"
+        ],
+        [
+          "NEISA Women's Singlehanded Championship",
+          "Boston College",
+          "Sep 18",
+          "2",
+          "11"
+        ],
+        [
+          "Harvard Invitational",
+          "Harvard",
+          "Sep 13",
+          "5",
+          "6"
+        ],
+        [
+          "Harry H. Anderson Jr. Trophy",
+          "Yale",
+          "Sep 12",
+          "2",
+          "17"
+        ]
       ]
     },
     "tufts": {
-      "name": "Tufts Jumbos", "short": "TUF", "cls_color": "c", "conf": "NEISA", "regattas": 22,
+      "name": "Tufts Jumbos",
+      "short": "TUF",
+      "cls_color": "c",
+      "conf": "NEISA",
+      "regattas": 22,
       "url": "https://scores.collegesailing.org/schools/tufts/",
       "now": [
-        {"reg": "Nevins Trophy", "host": "Kings Point", "status": "Race 10B", "live": true, "place": "7th", "field": 18, "link": "https://scores.collegesailing.org/f26/nevins/"},
-        {"reg": "The 35th Captain Hurst Bowl", "host": "Dartmouth", "status": "Race 10B", "live": true, "place": "7th", "field": 18, "link": "https://scores.collegesailing.org/f26/35th-captain-hurst-bowl/"},
-        {"reg": "Women's Atlantic Coast Champ. Finals", "host": "St. Mary's", "status": "Finals Sunday", "live": true, "place": "9th", "field": 18, "link": "https://scores.collegesailing.org/f26/women-atlantic-coast-finals/"}
+        {
+          "reg": "Women's Atlantic Coast Championship Finals",
+          "host": "St. Mary's",
+          "status": "Finished",
+          "live": false,
+          "place": "9th",
+          "field": 18,
+          "link": "https://scores.collegesailing.org/f26/women-atlantic-coast-finals/"
+        },
+        {
+          "reg": "The 35th Captain Hurst Bowl",
+          "host": "Dartmouth",
+          "status": "10B",
+          "live": true,
+          "place": "7th",
+          "field": 18,
+          "link": "https://scores.collegesailing.org/f26/35th-captain-hurst-bowl/"
+        },
+        {
+          "reg": "Nevins Trophy",
+          "host": "Kings Point",
+          "status": "12A",
+          "live": true,
+          "place": "4th",
+          "field": 18,
+          "link": "https://scores.collegesailing.org/f26/nevins/"
+        }
       ],
       "season": [
-        ["Savin Hill Invite", "Boston College", "Oct 17", "3", "16"],
-        ["Hewitt Trophy", "Bowdoin", "Oct 10", "4", "18"],
-        ["Open Atlantic Coast Champ. Round 1A", "St. Mary's", "Oct 10", "6", "17"],
-        ["Women's Atlantic Coast Champ. Round 1A", "Dartmouth", "Oct 03", "2", "18"],
-        ["Danmark Trophy", "Coast Guard", "Oct 03", "9", "19"],
-        ["Moody Trophy", "Rhode Island", "Oct 03", "6", "17"],
-        ["The George Warren Smith '22 Trophy", "MIT", "Oct 03", "7", "18"],
-        ["Sherman Hoyt Trophy", "Brown", "Sep 27", "11", "16"],
-        ["Regis Trophy", "Boston University", "Sep 19", "1", "17"],
-        ["Hatch Brown Trophy", "MIT", "Sep 19", "7", "16"],
-        ["Harvard Invitational", "Harvard", "Sep 13", "2", "6"],
-        ["Harry H. Anderson Jr. Trophy", "Yale", "Sep 12", "12", "17"],
-        ["Harman Cup", "Maine Maritime", "Sep 12", "2", "8"],
-        ["Toni Deutsch '58 Trophy", "MIT", "Sep 12", "3", "17"]
+        [
+          "Savin Hill Invite",
+          "Boston College",
+          "Oct 17",
+          "3",
+          "16"
+        ],
+        [
+          "Hewitt Trophy",
+          "Bowdoin",
+          "Oct 10",
+          "4",
+          "18"
+        ],
+        [
+          "Open Atlantic Coast Championships Round 1A",
+          "St. Mary's",
+          "Oct 10",
+          "6",
+          "17"
+        ],
+        [
+          "Women's Atlantic Coast Championship Round 1A",
+          "Dartmouth",
+          "Oct 03",
+          "2",
+          "18"
+        ],
+        [
+          "BU Invite",
+          "Boston University",
+          "Oct 03",
+          "5",
+          "9"
+        ],
+        [
+          "Danmark Trophy",
+          "Coast Guard",
+          "Oct 03",
+          "9",
+          "19"
+        ],
+        [
+          "Moody Trophy",
+          "Rhode Island",
+          "Oct 03",
+          "6",
+          "17"
+        ],
+        [
+          "NEISA Match Race Championships",
+          "Maine Maritime",
+          "Oct 03",
+          "6",
+          "8"
+        ],
+        [
+          "The George Warren Smith '22 Trophy 2026",
+          "MIT",
+          "Oct 03",
+          "7",
+          "18"
+        ],
+        [
+          "Sherman Hoyt Trophy",
+          "Brown",
+          "Sep 27",
+          "11",
+          "16"
+        ],
+        [
+          "Regis Trophy",
+          "Boston University",
+          "Sep 19",
+          "1",
+          "17"
+        ],
+        [
+          "Mystic Lake Invite",
+          "Tufts",
+          "Sep 19",
+          "4",
+          "6"
+        ],
+        [
+          "Hatch Brown Trophy 2026",
+          "MIT",
+          "Sep 19",
+          "7",
+          "16"
+        ],
+        [
+          "NEISA Open Singlehanded Championship",
+          "Boston College",
+          "Sep 18",
+          "10",
+          "25"
+        ],
+        [
+          "Harvard Invitational",
+          "Harvard",
+          "Sep 13",
+          "2",
+          "6"
+        ],
+        [
+          "Harry H. Anderson Jr. Trophy",
+          "Yale",
+          "Sep 12",
+          "12",
+          "17"
+        ]
       ]
     }
   }
