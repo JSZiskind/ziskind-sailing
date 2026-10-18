@@ -12,7 +12,7 @@ Jumbos teams. Data comes from the ICSA's official scoring site, **TechScore**
 - `index.html` — the dashboard. Static; it fetches `./data.json` at load and renders from it. **Never hand-edit data into this file.**
 - `data.json` — all the results. The only file that changes when results update.
 - `scrape.py` — fetches the four TechScore pages (two sailors + two schools) plus any live regatta pages, and rebuilds `data.json`. Preserves full career history (the sailor pages carry every season).
-- `.github/workflows/refresh.yml` — a GitHub Action that runs `scrape.py` on **race weekends** (Sat & Sun, roughly every 2 hours, 9am–7pm ET) and commits `data.json` if anything changed. GitHub Pages serves the repo, so a commit goes live immediately.
+- `.github/workflows/refresh.yml` — a GitHub Action that runs `scrape.py` **every day, roughly every 2 hours, 9am–7pm ET** and commits `data.json` if anything changed. GitHub Pages serves the repo, so a commit goes live immediately.
 
 ### Run it yourself
 

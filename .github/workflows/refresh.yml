@@ -2,9 +2,9 @@ name: Refresh dashboard data
 
 on:
   schedule:
-    # Race weekends: Sat & Sun, every 2 hours 13:00–23:00 UTC (~9am–7pm US Eastern).
+    # Year-round: every day, every 2 hours 13:00–23:00 UTC (~9am–7pm US Eastern).
     # Cron is always UTC. (In EST the window shifts to ~8am–6pm ET — fine.)
-    - cron: "0 13,15,17,19,21,23 * * 6,0"
+    - cron: "0 13,15,17,19,21,23 * * *"
   workflow_dispatch: {}   # lets you (or a script) run it on demand
 
 permissions:
