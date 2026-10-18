@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T13:12:57-04:00",
+  "updated": "2026-10-18T17:17:01-04:00",
   "zoey": {
     "first": "Zoey",
     "last": "Ziskind",
@@ -621,7 +621,7 @@
       "fleet": 18,
       "div": "A",
       "team": "Tufts Jumbos",
-      "teamPlace": 4,
+      "teamPlace": 3,
       "teamField": 18,
       "note": "It will be interesting to see how each team reacts to the big change in conditions.",
       "url": "https://scores.collegesailing.org/f26/nevins/"
@@ -809,7 +809,7 @@
         {
           "reg": "The 35th Captain Hurst Bowl",
           "host": "Dartmouth",
-          "status": "10B",
+          "status": "Final",
           "live": true,
           "place": "8th",
           "field": 18,
@@ -951,7 +951,7 @@
         {
           "reg": "The 35th Captain Hurst Bowl",
           "host": "Dartmouth",
-          "status": "10B",
+          "status": "Final",
           "live": true,
           "place": "7th",
           "field": 18,
@@ -960,9 +960,9 @@
         {
           "reg": "Nevins Trophy",
           "host": "Kings Point",
-          "status": "12A",
-          "live": true,
-          "place": "4th",
+          "status": "Finished",
+          "live": false,
+          "place": "3rd",
           "field": 18,
           "link": "https://scores.collegesailing.org/f26/nevins/"
         }
