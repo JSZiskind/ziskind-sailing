@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T13:47:39-04:00",
+  "updated": "2026-10-20T18:08:08-04:00",
   "zoey": {
     "first": "Zoey",
     "last": "Ziskind",
@@ -11,23 +11,20 @@
     "conf": "NEISA",
     "cls_color": "z",
     "url": "https://scores.collegesailing.org/sailors/zoey-ziskind/",
-    "live": {
-      "reg": "Women's Atlantic Coast Championship Finals",
-      "host": "St. Mary's",
-      "pos": "Skipper",
-      "place": 4,
-      "fleet": 18,
-      "div": "A",
-      "team": "Harvard Crimson",
-      "teamPlace": 1,
-      "teamField": 18,
-      "note": "Super tight fight for the podium spots with the Harvard Crimson getting it done in the clutch!",
-      "url": "https://scores.collegesailing.org/f26/women-atlantic-coast-finals/"
-    },
+    "live": null,
     "seasons": [
       {
         "label": "Fall 2026",
         "races": [
+          {
+            "name": "Women's Atlantic Coast Championship Finals",
+            "host": "St. Mary's",
+            "date": "Oct 17",
+            "position": "Skipper",
+            "place": 4,
+            "fleet": 18,
+            "div": "A"
+          },
           {
             "name": "Stu Nelson @ Connecticut College 2026",
             "host": "Connecticut College",
