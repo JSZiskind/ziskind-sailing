@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T20:07:09-04:00",
+  "updated": "2026-10-20T13:47:39-04:00",
   "zoey": {
     "first": "Zoey",
     "last": "Ziskind",
@@ -794,29 +794,24 @@
       "short": "HAR",
       "cls_color": "z",
       "conf": "NEISA",
-      "regattas": 20,
+      "regattas": 21,
       "url": "https://scores.collegesailing.org/schools/harvard/",
-      "now": [
-        {
-          "reg": "Women's Atlantic Coast Championship Finals",
-          "host": "St. Mary's",
-          "status": "Finished",
-          "live": false,
-          "place": "1st",
-          "field": 18,
-          "link": "https://scores.collegesailing.org/f26/women-atlantic-coast-finals/"
-        },
-        {
-          "reg": "The 35th Captain Hurst Bowl",
-          "host": "Dartmouth",
-          "status": "Final",
-          "live": true,
-          "place": "8th",
-          "field": 18,
-          "link": "https://scores.collegesailing.org/f26/35th-captain-hurst-bowl/"
-        }
-      ],
+      "now": [],
       "season": [
+        [
+          "Women's Atlantic Coast Championship Finals",
+          "St. Mary's",
+          "Oct 17",
+          "1",
+          "18"
+        ],
+        [
+          "The 35th Captain Hurst Bowl",
+          "Dartmouth",
+          "Oct 17",
+          "8",
+          "18"
+        ],
         [
           "Stu Nelson @ Connecticut College 2026",
           "Connecticut College",
@@ -914,20 +909,6 @@
           "Sep 18",
           "2",
           "11"
-        ],
-        [
-          "Harvard Invitational",
-          "Harvard",
-          "Sep 13",
-          "5",
-          "6"
-        ],
-        [
-          "Harry H. Anderson Jr. Trophy",
-          "Yale",
-          "Sep 12",
-          "2",
-          "17"
         ]
       ]
     },
@@ -936,38 +917,31 @@
       "short": "TUF",
       "cls_color": "c",
       "conf": "NEISA",
-      "regattas": 22,
+      "regattas": 24,
       "url": "https://scores.collegesailing.org/schools/tufts/",
-      "now": [
-        {
-          "reg": "Women's Atlantic Coast Championship Finals",
-          "host": "St. Mary's",
-          "status": "Finished",
-          "live": false,
-          "place": "9th",
-          "field": 18,
-          "link": "https://scores.collegesailing.org/f26/women-atlantic-coast-finals/"
-        },
-        {
-          "reg": "The 35th Captain Hurst Bowl",
-          "host": "Dartmouth",
-          "status": "Final",
-          "live": true,
-          "place": "7th",
-          "field": 18,
-          "link": "https://scores.collegesailing.org/f26/35th-captain-hurst-bowl/"
-        },
-        {
-          "reg": "Nevins Trophy",
-          "host": "Kings Point",
-          "status": "Finished",
-          "live": false,
-          "place": "3rd",
-          "field": 18,
-          "link": "https://scores.collegesailing.org/f26/nevins/"
-        }
-      ],
+      "now": [],
       "season": [
+        [
+          "Nevins Trophy",
+          "Kings Point",
+          "Oct 17",
+          "3",
+          "18"
+        ],
+        [
+          "Women's Atlantic Coast Championship Finals",
+          "St. Mary's",
+          "Oct 17",
+          "9",
+          "18"
+        ],
+        [
+          "The 35th Captain Hurst Bowl",
+          "Dartmouth",
+          "Oct 17",
+          "7",
+          "18"
+        ],
         [
           "Savin Hill Invite",
           "Boston College",
@@ -1058,27 +1032,6 @@
           "Sep 19",
           "7",
           "16"
-        ],
-        [
-          "NEISA Open Singlehanded Championship",
-          "Boston College",
-          "Sep 18",
-          "10",
-          "25"
-        ],
-        [
-          "Harvard Invitational",
-          "Harvard",
-          "Sep 13",
-          "2",
-          "6"
-        ],
-        [
-          "Harry H. Anderson Jr. Trophy",
-          "Yale",
-          "Sep 12",
-          "12",
-          "17"
         ]
       ]
     }
