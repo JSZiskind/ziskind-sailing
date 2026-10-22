@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T13:51:56-04:00",
+  "updated": "2026-10-22T18:07:57-04:00",
   "zoey": {
     "first": "Zoey",
     "last": "Ziskind",
@@ -610,23 +610,20 @@
     "conf": "NEISA",
     "cls_color": "c",
     "url": "https://scores.collegesailing.org/sailors/crue-ziskind/",
-    "live": {
-      "reg": "Nevins Trophy",
-      "host": "Kings Point",
-      "pos": "Skipper",
-      "place": 9,
-      "fleet": 18,
-      "div": "A",
-      "team": "Tufts Jumbos",
-      "teamPlace": 3,
-      "teamField": 18,
-      "note": "It will be interesting to see how each team reacts to the big change in conditions.",
-      "url": "https://scores.collegesailing.org/f26/nevins/"
-    },
+    "live": null,
     "seasons": [
       {
         "label": "Fall 2026",
         "races": [
+          {
+            "name": "Nevins Trophy",
+            "host": "Kings Point",
+            "date": "Oct 17",
+            "position": "Skipper",
+            "place": 9,
+            "fleet": 18,
+            "div": "A"
+          },
           {
             "name": "Open Atlantic Coast Championships Round 1A",
             "host": "St. Mary's",
