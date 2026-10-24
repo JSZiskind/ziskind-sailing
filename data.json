@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T21:23:46-04:00",
+  "updated": "2026-10-24T12:27:00-04:00",
   "zoey": {
     "first": "Zoey",
     "last": "Ziskind",
@@ -610,7 +610,19 @@
     "conf": "NEISA",
     "cls_color": "c",
     "url": "https://scores.collegesailing.org/sailors/crue-ziskind/",
-    "live": null,
+    "live": {
+      "reg": "Open Atlantic Coast Championship",
+      "host": "Brown",
+      "pos": "Skipper",
+      "place": null,
+      "fleet": null,
+      "div": null,
+      "team": "Tufts Jumbos",
+      "teamPlace": null,
+      "teamField": 0,
+      "note": "",
+      "url": "https://scores.collegesailing.org/f26/open-atlantic-coast/"
+    },
     "seasons": [
       {
         "label": "Fall 2026",
@@ -788,9 +800,28 @@
       "short": "HAR",
       "cls_color": "z",
       "conf": "NEISA",
-      "regattas": 23,
+      "regattas": 24,
       "url": "https://scores.collegesailing.org/schools/harvard/",
-      "now": [],
+      "now": [
+        {
+          "reg": "Open Atlantic Coast Championship",
+          "host": "Brown",
+          "status": "No scores yet",
+          "live": true,
+          "place": "18th",
+          "field": 18,
+          "link": "https://scores.collegesailing.org/f26/open-atlantic-coast/"
+        },
+        {
+          "reg": "Norman Reid Team Race",
+          "host": "Boston College",
+          "status": "6",
+          "live": true,
+          "place": "3rd",
+          "field": 6,
+          "link": "https://scores.collegesailing.org/f26/norman-reid-team-race/"
+        }
+      ],
       "season": [
         [
           "Women's Atlantic Coast Championship Finals",
@@ -911,9 +942,46 @@
       "short": "TUF",
       "cls_color": "c",
       "conf": "NEISA",
-      "regattas": 26,
+      "regattas": 27,
       "url": "https://scores.collegesailing.org/schools/tufts/",
-      "now": [],
+      "now": [
+        {
+          "reg": "Open Atlantic Coast Championship",
+          "host": "Brown",
+          "status": "No scores yet",
+          "live": true,
+          "place": "18th",
+          "field": 18,
+          "link": "https://scores.collegesailing.org/f26/open-atlantic-coast/"
+        },
+        {
+          "reg": "Yale Women's",
+          "host": "Yale",
+          "status": "No scores yet",
+          "live": true,
+          "place": "17th",
+          "field": 17,
+          "link": "https://scores.collegesailing.org/f26/yale-women/"
+        },
+        {
+          "reg": "Oberg Trophy",
+          "host": "Northeastern",
+          "status": "No scores yet",
+          "live": true,
+          "place": "17th",
+          "field": 17,
+          "link": "https://scores.collegesailing.org/f26/oberg/"
+        },
+        {
+          "reg": "Norman Reid Team Race",
+          "host": "Boston College",
+          "status": "6",
+          "live": true,
+          "place": "1st",
+          "field": 6,
+          "link": "https://scores.collegesailing.org/f26/norman-reid-team-race/"
+        }
+      ],
       "season": [
         [
           "Nevins Trophy",
