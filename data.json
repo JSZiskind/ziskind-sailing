@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T12:27:00-04:00",
+  "updated": "2026-10-24T15:15:47-04:00",
   "zoey": {
     "first": "Zoey",
     "last": "Ziskind",
@@ -614,12 +614,12 @@
       "reg": "Open Atlantic Coast Championship",
       "host": "Brown",
       "pos": "Skipper",
-      "place": null,
-      "fleet": null,
-      "div": null,
+      "place": 2,
+      "fleet": 18,
+      "div": "A",
       "team": "Tufts Jumbos",
-      "teamPlace": null,
-      "teamField": 0,
+      "teamPlace": 8,
+      "teamField": 18,
       "note": "",
       "url": "https://scores.collegesailing.org/f26/open-atlantic-coast/"
     },
@@ -806,18 +806,18 @@
         {
           "reg": "Open Atlantic Coast Championship",
           "host": "Brown",
-          "status": "No scores yet",
+          "status": "2A",
           "live": true,
-          "place": "18th",
+          "place": "11th",
           "field": 18,
           "link": "https://scores.collegesailing.org/f26/open-atlantic-coast/"
         },
         {
           "reg": "Norman Reid Team Race",
           "host": "Boston College",
-          "status": "6",
+          "status": "30",
           "live": true,
-          "place": "3rd",
+          "place": "4th",
           "field": 6,
           "link": "https://scores.collegesailing.org/f26/norman-reid-team-race/"
         }
@@ -942,40 +942,40 @@
       "short": "TUF",
       "cls_color": "c",
       "conf": "NEISA",
-      "regattas": 27,
+      "regattas": 28,
       "url": "https://scores.collegesailing.org/schools/tufts/",
       "now": [
         {
           "reg": "Open Atlantic Coast Championship",
           "host": "Brown",
-          "status": "No scores yet",
+          "status": "2A",
           "live": true,
-          "place": "18th",
+          "place": "8th",
           "field": 18,
           "link": "https://scores.collegesailing.org/f26/open-atlantic-coast/"
         },
         {
           "reg": "Yale Women's",
           "host": "Yale",
-          "status": "No scores yet",
+          "status": "4A",
           "live": true,
-          "place": "17th",
+          "place": "2nd",
           "field": 17,
           "link": "https://scores.collegesailing.org/f26/yale-women/"
         },
         {
           "reg": "Oberg Trophy",
           "host": "Northeastern",
-          "status": "No scores yet",
+          "status": "1C",
           "live": true,
-          "place": "17th",
+          "place": "9th",
           "field": 17,
           "link": "https://scores.collegesailing.org/f26/oberg/"
         },
         {
           "reg": "Norman Reid Team Race",
           "host": "Boston College",
-          "status": "6",
+          "status": "30",
           "live": true,
           "place": "1st",
           "field": 6,
