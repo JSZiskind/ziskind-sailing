@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T12:58:39-04:00",
+  "updated": "2026-10-25T15:30:57-04:00",
   "zoey": {
     "first": "Zoey",
     "last": "Ziskind",
@@ -15,11 +15,11 @@
       "reg": "Open Atlantic Coast Championship",
       "host": "Brown",
       "pos": "Skipper",
-      "place": 13,
+      "place": 16,
       "fleet": 18,
       "div": "A",
       "team": "Harvard Crimson",
-      "teamPlace": 15,
+      "teamPlace": 11,
       "teamField": 18,
       "note": "The racing was awesome as the top 18 open teams in College Sailing battled it out for fall supremacy with a number of general recalls and very tight racing.",
       "url": "https://scores.collegesailing.org/f26/open-atlantic-coast/"
@@ -626,7 +626,7 @@
       "reg": "Open Atlantic Coast Championship",
       "host": "Brown",
       "pos": "Skipper",
-      "place": 17,
+      "place": 15,
       "fleet": 18,
       "div": "A",
       "team": "Tufts Jumbos",
@@ -818,9 +818,9 @@
         {
           "reg": "Open Atlantic Coast Championship",
           "host": "Brown",
-          "status": "6A",
+          "status": "10B",
           "live": true,
-          "place": "15th",
+          "place": "11th",
           "field": 18,
           "link": "https://scores.collegesailing.org/f26/open-atlantic-coast/"
         }
@@ -951,7 +951,7 @@
         {
           "reg": "Open Atlantic Coast Championship",
           "host": "Brown",
-          "status": "6A",
+          "status": "10B",
           "live": true,
           "place": "17th",
           "field": 18,
@@ -960,9 +960,9 @@
         {
           "reg": "Yale Women's",
           "host": "Yale",
-          "status": "9B",
+          "status": "13B",
           "live": true,
-          "place": "6th",
+          "place": "4th",
           "field": 17,
           "link": "https://scores.collegesailing.org/f26/yale-women/"
         },
