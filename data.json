@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T20:52:07-04:00",
+  "updated": "2026-10-25T12:58:39-04:00",
   "zoey": {
     "first": "Zoey",
     "last": "Ziskind",
@@ -15,13 +15,13 @@
       "reg": "Open Atlantic Coast Championship",
       "host": "Brown",
       "pos": "Skipper",
-      "place": 14,
+      "place": 13,
       "fleet": 18,
       "div": "A",
       "team": "Harvard Crimson",
       "teamPlace": 15,
       "teamField": 18,
-      "note": "",
+      "note": "The racing was awesome as the top 18 open teams in College Sailing battled it out for fall supremacy with a number of general recalls and very tight racing.",
       "url": "https://scores.collegesailing.org/f26/open-atlantic-coast/"
     },
     "seasons": [
@@ -626,13 +626,13 @@
       "reg": "Open Atlantic Coast Championship",
       "host": "Brown",
       "pos": "Skipper",
-      "place": 10,
+      "place": 17,
       "fleet": 18,
       "div": "A",
       "team": "Tufts Jumbos",
-      "teamPlace": 16,
+      "teamPlace": 17,
       "teamField": 18,
-      "note": "",
+      "note": "The racing was awesome as the top 18 open teams in College Sailing battled it out for fall supremacy with a number of general recalls and very tight racing.",
       "url": "https://scores.collegesailing.org/f26/open-atlantic-coast/"
     },
     "seasons": [
@@ -823,18 +823,16 @@
           "place": "15th",
           "field": 18,
           "link": "https://scores.collegesailing.org/f26/open-atlantic-coast/"
-        },
-        {
-          "reg": "Norman Reid Team Race",
-          "host": "Boston College",
-          "status": "Final",
-          "live": true,
-          "place": "4th",
-          "field": 6,
-          "link": "https://scores.collegesailing.org/f26/norman-reid-team-race/"
         }
       ],
       "season": [
+        [
+          "Norman Reid Team Race",
+          "Boston College",
+          "Oct 24",
+          "4",
+          "6"
+        ],
         [
           "Women's Atlantic Coast Championship Finals",
           "St. Mary's",
@@ -939,13 +937,6 @@
           "Sep 19",
           "8",
           "16"
-        ],
-        [
-          "NEISA Women's Singlehanded Championship",
-          "Boston College",
-          "Sep 18",
-          "2",
-          "11"
         ]
       ]
     },
@@ -962,16 +953,16 @@
           "host": "Brown",
           "status": "6A",
           "live": true,
-          "place": "16th",
+          "place": "17th",
           "field": 18,
           "link": "https://scores.collegesailing.org/f26/open-atlantic-coast/"
         },
         {
           "reg": "Yale Women's",
           "host": "Yale",
-          "status": "8B",
+          "status": "9B",
           "live": true,
-          "place": "5th",
+          "place": "6th",
           "field": 17,
           "link": "https://scores.collegesailing.org/f26/yale-women/"
         },
@@ -985,16 +976,23 @@
           "link": "https://scores.collegesailing.org/f26/oberg/"
         },
         {
-          "reg": "Norman Reid Team Race",
-          "host": "Boston College",
-          "status": "Final",
+          "reg": "Lane Trophy Team Race",
+          "host": "Tufts",
+          "status": "No scores yet",
           "live": true,
           "place": "1st",
           "field": 6,
-          "link": "https://scores.collegesailing.org/f26/norman-reid-team-race/"
+          "link": "https://scores.collegesailing.org/f26/lane-team-race/"
         }
       ],
       "season": [
+        [
+          "Norman Reid Team Race",
+          "Boston College",
+          "Oct 24",
+          "1",
+          "6"
+        ],
         [
           "Nevins Trophy",
           "Kings Point",
@@ -1099,13 +1097,6 @@
           "Sep 19",
           "4",
           "6"
-        ],
-        [
-          "Hatch Brown Trophy 2026",
-          "MIT",
-          "Sep 19",
-          "7",
-          "16"
         ]
       ]
     }
