@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T19:01:50-04:00",
+  "updated": "2026-10-26T15:02:10-04:00",
   "zoey": {
     "first": "Zoey",
     "last": "Ziskind",
@@ -11,23 +11,20 @@
     "conf": "NEISA",
     "cls_color": "z",
     "url": "https://scores.collegesailing.org/sailors/zoey-ziskind/",
-    "live": {
-      "reg": "Open Atlantic Coast Championship",
-      "host": "Brown",
-      "pos": "Skipper",
-      "place": 16,
-      "fleet": 18,
-      "div": "A",
-      "team": "Harvard Crimson",
-      "teamPlace": 11,
-      "teamField": 18,
-      "note": "The racing was awesome as the top 18 open teams in College Sailing battled it out for fall supremacy with a number of general recalls and very tight racing.",
-      "url": "https://scores.collegesailing.org/f26/open-atlantic-coast/"
-    },
+    "live": null,
     "seasons": [
       {
         "label": "Fall 2026",
         "races": [
+          {
+            "name": "Open Atlantic Coast Championship",
+            "host": "Brown",
+            "date": "Oct 24",
+            "position": "Skipper",
+            "place": 16,
+            "fleet": 18,
+            "div": "A"
+          },
           {
             "name": "Women's Atlantic Coast Championship Finals",
             "host": "St. Mary's",
@@ -622,23 +619,20 @@
     "conf": "NEISA",
     "cls_color": "c",
     "url": "https://scores.collegesailing.org/sailors/crue-ziskind/",
-    "live": {
-      "reg": "Open Atlantic Coast Championship",
-      "host": "Brown",
-      "pos": "Skipper",
-      "place": 15,
-      "fleet": 18,
-      "div": "A",
-      "team": "Tufts Jumbos",
-      "teamPlace": 17,
-      "teamField": 18,
-      "note": "The racing was awesome as the top 18 open teams in College Sailing battled it out for fall supremacy with a number of general recalls and very tight racing.",
-      "url": "https://scores.collegesailing.org/f26/open-atlantic-coast/"
-    },
+    "live": null,
     "seasons": [
       {
         "label": "Fall 2026",
         "races": [
+          {
+            "name": "Open Atlantic Coast Championship",
+            "host": "Brown",
+            "date": "Oct 24",
+            "position": "Skipper",
+            "place": 15,
+            "fleet": 18,
+            "div": "A"
+          },
           {
             "name": "Nevins Trophy",
             "host": "Kings Point",
@@ -812,20 +806,17 @@
       "short": "HAR",
       "cls_color": "z",
       "conf": "NEISA",
-      "regattas": 24,
+      "regattas": 25,
       "url": "https://scores.collegesailing.org/schools/harvard/",
-      "now": [
-        {
-          "reg": "Open Atlantic Coast Championship",
-          "host": "Brown",
-          "status": "10B",
-          "live": true,
-          "place": "11th",
-          "field": 18,
-          "link": "https://scores.collegesailing.org/f26/open-atlantic-coast/"
-        }
-      ],
+      "now": [],
       "season": [
+        [
+          "Open Atlantic Coast Championship",
+          "Brown",
+          "Oct 24",
+          "11",
+          "18"
+        ],
         [
           "Norman Reid Team Race",
           "Boston College",
@@ -930,13 +921,6 @@
           "Sep 19",
           "6",
           "6"
-        ],
-        [
-          "Hatch Brown Trophy 2026",
-          "MIT",
-          "Sep 19",
-          "8",
-          "16"
         ]
       ]
     },
@@ -947,45 +931,29 @@
       "conf": "NEISA",
       "regattas": 28,
       "url": "https://scores.collegesailing.org/schools/tufts/",
-      "now": [
-        {
-          "reg": "Open Atlantic Coast Championship",
-          "host": "Brown",
-          "status": "10B",
-          "live": true,
-          "place": "17th",
-          "field": 18,
-          "link": "https://scores.collegesailing.org/f26/open-atlantic-coast/"
-        },
-        {
-          "reg": "Yale Women's",
-          "host": "Yale",
-          "status": "13B",
-          "live": true,
-          "place": "4th",
-          "field": 17,
-          "link": "https://scores.collegesailing.org/f26/yale-women/"
-        },
-        {
-          "reg": "Oberg Trophy",
-          "host": "Northeastern",
-          "status": "3C",
-          "live": true,
-          "place": "4th",
-          "field": 17,
-          "link": "https://scores.collegesailing.org/f26/oberg/"
-        },
-        {
-          "reg": "Lane Trophy Team Race",
-          "host": "Tufts",
-          "status": "No scores yet",
-          "live": true,
-          "place": "1st",
-          "field": 6,
-          "link": "https://scores.collegesailing.org/f26/lane-team-race/"
-        }
-      ],
+      "now": [],
       "season": [
+        [
+          "Open Atlantic Coast Championship",
+          "Brown",
+          "Oct 24",
+          "17",
+          "18"
+        ],
+        [
+          "Oberg Trophy",
+          "Northeastern",
+          "Oct 24",
+          "4",
+          "17"
+        ],
+        [
+          "Yale Women's",
+          "Yale",
+          "Oct 24",
+          "4",
+          "17"
+        ],
         [
           "Norman Reid Team Race",
           "Boston College",
@@ -1076,27 +1044,6 @@
           "Oct 03",
           "7",
           "18"
-        ],
-        [
-          "Sherman Hoyt Trophy",
-          "Brown",
-          "Sep 27",
-          "11",
-          "16"
-        ],
-        [
-          "Regis Trophy",
-          "Boston University",
-          "Sep 19",
-          "1",
-          "17"
-        ],
-        [
-          "Mystic Lake Invite",
-          "Tufts",
-          "Sep 19",
-          "4",
-          "6"
         ]
       ]
     }
