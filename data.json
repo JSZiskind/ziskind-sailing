@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T19:06:37-04:00",
+  "updated": "2026-10-30T14:26:28-04:00",
   "zoey": {
     "first": "Zoey",
     "last": "Ziskind",
@@ -806,7 +806,7 @@
       "short": "HAR",
       "cls_color": "z",
       "conf": "NEISA",
-      "regattas": 25,
+      "regattas": 27,
       "url": "https://scores.collegesailing.org/schools/harvard/",
       "now": [],
       "season": [
@@ -825,17 +825,17 @@
           "6"
         ],
         [
-          "Women's Atlantic Coast Championship Finals",
-          "St. Mary's",
-          "Oct 17",
-          "1",
-          "18"
-        ],
-        [
           "The 35th Captain Hurst Bowl",
           "Dartmouth",
           "Oct 17",
           "8",
+          "18"
+        ],
+        [
+          "Women's Atlantic Coast Championship Finals",
+          "St. Mary's",
+          "Oct 17",
+          "1",
           "18"
         ],
         [
@@ -874,13 +874,6 @@
           "9"
         ],
         [
-          "Danmark Trophy",
-          "Coast Guard",
-          "Oct 03",
-          "4",
-          "19"
-        ],
-        [
           "Moody Trophy",
           "Rhode Island",
           "Oct 03",
@@ -893,6 +886,13 @@
           "Oct 03",
           "14",
           "18"
+        ],
+        [
+          "Danmark Trophy",
+          "Coast Guard",
+          "Oct 03",
+          "4",
+          "19"
         ],
         [
           "Sherman Hoyt Trophy",
@@ -929,7 +929,7 @@
       "short": "TUF",
       "cls_color": "c",
       "conf": "NEISA",
-      "regattas": 28,
+      "regattas": 30,
       "url": "https://scores.collegesailing.org/schools/tufts/",
       "now": [],
       "season": [
@@ -948,13 +948,6 @@
           "17"
         ],
         [
-          "Yale Women's",
-          "Yale",
-          "Oct 24",
-          "4",
-          "17"
-        ],
-        [
           "Norman Reid Team Race",
           "Boston College",
           "Oct 24",
@@ -962,17 +955,17 @@
           "6"
         ],
         [
+          "Yale Women's",
+          "Yale",
+          "Oct 24",
+          "4",
+          "17"
+        ],
+        [
           "Nevins Trophy",
           "Kings Point",
           "Oct 17",
           "3",
-          "18"
-        ],
-        [
-          "Women's Atlantic Coast Championship Finals",
-          "St. Mary's",
-          "Oct 17",
-          "9",
           "18"
         ],
         [
@@ -988,6 +981,13 @@
           "Oct 17",
           "3",
           "16"
+        ],
+        [
+          "Women's Atlantic Coast Championship Finals",
+          "St. Mary's",
+          "Oct 17",
+          "9",
+          "18"
         ],
         [
           "Hewitt Trophy",
@@ -1018,18 +1018,18 @@
           "9"
         ],
         [
+          "The George Warren Smith '22 Trophy 2026",
+          "MIT",
+          "Oct 03",
+          "7",
+          "18"
+        ],
+        [
           "Danmark Trophy",
           "Coast Guard",
           "Oct 03",
           "9",
           "19"
-        ],
-        [
-          "Moody Trophy",
-          "Rhode Island",
-          "Oct 03",
-          "6",
-          "17"
         ],
         [
           "NEISA Match Race Championships",
@@ -1039,11 +1039,11 @@
           "8"
         ],
         [
-          "The George Warren Smith '22 Trophy 2026",
-          "MIT",
+          "Moody Trophy",
+          "Rhode Island",
           "Oct 03",
-          "7",
-          "18"
+          "6",
+          "17"
         ]
       ]
     }
