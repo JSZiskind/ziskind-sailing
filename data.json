@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T22:02:09-04:00",
+  "updated": "2026-10-31T13:31:04-04:00",
   "zoey": {
     "first": "Zoey",
     "last": "Ziskind",
@@ -619,7 +619,19 @@
     "conf": "NEISA",
     "cls_color": "c",
     "url": "https://scores.collegesailing.org/sailors/crue-ziskind/",
-    "live": null,
+    "live": {
+      "reg": "Schell Trophy",
+      "host": "Vermont",
+      "pos": "Skipper",
+      "place": 13,
+      "fleet": 18,
+      "div": "A",
+      "team": "Tufts Jumbos",
+      "teamPlace": 9,
+      "teamField": 18,
+      "note": "",
+      "url": "https://scores.collegesailing.org/f26/schell/"
+    },
     "seasons": [
       {
         "label": "Fall 2026",
@@ -808,7 +820,44 @@
       "conf": "NEISA",
       "regattas": 27,
       "url": "https://scores.collegesailing.org/schools/harvard/",
-      "now": [],
+      "now": [
+        {
+          "reg": "The Victorian Urn Trophy",
+          "host": "Dartmouth",
+          "status": "4B",
+          "live": true,
+          "place": "1st",
+          "field": 16,
+          "link": "https://scores.collegesailing.org/f26/victorian-urn/"
+        },
+        {
+          "reg": "Schell Trophy",
+          "host": "Vermont",
+          "status": "3A",
+          "live": true,
+          "place": "7th",
+          "field": 18,
+          "link": "https://scores.collegesailing.org/f26/schell/"
+        },
+        {
+          "reg": "Nickerson Trophy",
+          "host": "Tufts",
+          "status": "2B",
+          "live": true,
+          "place": "5th",
+          "field": 17,
+          "link": "https://scores.collegesailing.org/f26/nickerson/"
+        },
+        {
+          "reg": "Terrier Invite",
+          "host": "Boston University",
+          "status": "5",
+          "live": true,
+          "place": "9th",
+          "field": 9,
+          "link": "https://scores.collegesailing.org/f26/terrier-invite/"
+        }
+      ],
       "season": [
         [
           "Open Atlantic Coast Championship",
@@ -931,7 +980,44 @@
       "conf": "NEISA",
       "regattas": 30,
       "url": "https://scores.collegesailing.org/schools/tufts/",
-      "now": [],
+      "now": [
+        {
+          "reg": "The Victorian Urn Trophy",
+          "host": "Dartmouth",
+          "status": "4B",
+          "live": true,
+          "place": "6th",
+          "field": 16,
+          "link": "https://scores.collegesailing.org/f26/victorian-urn/"
+        },
+        {
+          "reg": "Schell Trophy",
+          "host": "Vermont",
+          "status": "3A",
+          "live": true,
+          "place": "9th",
+          "field": 18,
+          "link": "https://scores.collegesailing.org/f26/schell/"
+        },
+        {
+          "reg": "Nickerson Trophy",
+          "host": "Tufts",
+          "status": "2B",
+          "live": true,
+          "place": "15th",
+          "field": 17,
+          "link": "https://scores.collegesailing.org/f26/nickerson/"
+        },
+        {
+          "reg": "Terrier Invite",
+          "host": "Boston University",
+          "status": "5",
+          "live": true,
+          "place": "1st",
+          "field": 9,
+          "link": "https://scores.collegesailing.org/f26/terrier-invite/"
+        }
+      ],
       "season": [
         [
           "Open Atlantic Coast Championship",
