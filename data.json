@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T21:53:15-04:00",
+  "updated": "2026-11-01T14:16:41-04:00",
   "zoey": {
     "first": "Zoey",
     "last": "Ziskind",
@@ -635,13 +635,13 @@
       "reg": "Schell Trophy",
       "host": "Vermont",
       "pos": "Skipper",
-      "place": 15,
+      "place": 12,
       "fleet": 18,
       "div": "A",
       "team": "Tufts Jumbos",
-      "teamPlace": 10,
+      "teamPlace": 6,
       "teamField": 18,
-      "note": "",
+      "note": "Score summary School Team A B TOT 1 Yale University Bulldogs 68 60 128 2 Brown University",
       "url": "https://scores.collegesailing.org/f26/schell/"
     },
     "seasons": [
@@ -836,7 +836,7 @@
         {
           "reg": "The Victorian Urn Trophy",
           "host": "Dartmouth",
-          "status": "10B",
+          "status": "12A",
           "live": true,
           "place": "1st",
           "field": 16,
@@ -845,32 +845,30 @@
         {
           "reg": "Schell Trophy",
           "host": "Vermont",
-          "status": "4A",
+          "status": "14A",
           "live": true,
-          "place": "6th",
+          "place": "5th",
           "field": 18,
           "link": "https://scores.collegesailing.org/f26/schell/"
         },
         {
           "reg": "Nickerson Trophy",
           "host": "Tufts",
-          "status": "5B",
+          "status": "8B",
           "live": true,
-          "place": "8th",
+          "place": "10th",
           "field": 17,
           "link": "https://scores.collegesailing.org/f26/nickerson/"
-        },
-        {
-          "reg": "Terrier Invite",
-          "host": "Boston University",
-          "status": "8",
-          "live": true,
-          "place": "9th",
-          "field": 9,
-          "link": "https://scores.collegesailing.org/f26/terrier-invite/"
         }
       ],
       "season": [
+        [
+          "Terrier Invite",
+          "Boston University",
+          "Oct 31",
+          "9",
+          "9"
+        ],
         [
           "Open Atlantic Coast Championship",
           "Brown",
@@ -975,13 +973,6 @@
           "Sep 19",
           "15",
           "17"
-        ],
-        [
-          "Mystic Lake Invite",
-          "Tufts",
-          "Sep 19",
-          "6",
-          "6"
         ]
       ]
     },
@@ -996,41 +987,39 @@
         {
           "reg": "The Victorian Urn Trophy",
           "host": "Dartmouth",
-          "status": "10B",
+          "status": "12A",
           "live": true,
-          "place": "5th",
+          "place": "3rd",
           "field": 16,
           "link": "https://scores.collegesailing.org/f26/victorian-urn/"
         },
         {
           "reg": "Schell Trophy",
           "host": "Vermont",
-          "status": "4A",
+          "status": "14A",
           "live": true,
-          "place": "10th",
+          "place": "6th",
           "field": 18,
           "link": "https://scores.collegesailing.org/f26/schell/"
         },
         {
           "reg": "Nickerson Trophy",
           "host": "Tufts",
-          "status": "5B",
+          "status": "8B",
           "live": true,
-          "place": "11th",
+          "place": "13th",
           "field": 17,
           "link": "https://scores.collegesailing.org/f26/nickerson/"
-        },
-        {
-          "reg": "Terrier Invite",
-          "host": "Boston University",
-          "status": "8",
-          "live": true,
-          "place": "2nd",
-          "field": 9,
-          "link": "https://scores.collegesailing.org/f26/terrier-invite/"
         }
       ],
       "season": [
+        [
+          "Terrier Invite",
+          "Boston University",
+          "Oct 31",
+          "2",
+          "9"
+        ],
         [
           "Open Atlantic Coast Championship",
           "Brown",
@@ -1067,6 +1056,13 @@
           "18"
         ],
         [
+          "The 35th Captain Hurst Bowl",
+          "Dartmouth",
+          "Oct 17",
+          "7",
+          "18"
+        ],
+        [
           "Savin Hill Invite",
           "Boston College",
           "Oct 17",
@@ -1078,13 +1074,6 @@
           "St. Mary's",
           "Oct 17",
           "9",
-          "18"
-        ],
-        [
-          "The 35th Captain Hurst Bowl",
-          "Dartmouth",
-          "Oct 17",
-          "7",
           "18"
         ],
         [
@@ -1135,13 +1124,6 @@
           "Oct 03",
           "6",
           "8"
-        ],
-        [
-          "Moody Trophy",
-          "Rhode Island",
-          "Oct 03",
-          "6",
-          "17"
         ]
       ]
     }
