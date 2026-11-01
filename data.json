@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T14:16:41-04:00",
+  "updated": "2026-11-01T18:36:23-04:00",
   "zoey": {
     "first": "Zoey",
     "last": "Ziskind",
@@ -635,13 +635,13 @@
       "reg": "Schell Trophy",
       "host": "Vermont",
       "pos": "Skipper",
-      "place": 12,
+      "place": 10,
       "fleet": 18,
       "div": "A",
       "team": "Tufts Jumbos",
       "teamPlace": 6,
       "teamField": 18,
-      "note": "Score summary School Team A B TOT 1 Yale University Bulldogs 68 60 128 2 Brown University",
+      "note": "Score summary School Team A B TOT 1 Yale University Bulldogs 67 62 129 2 Brown University",
       "url": "https://scores.collegesailing.org/f26/schell/"
     },
     "seasons": [
@@ -836,7 +836,7 @@
         {
           "reg": "The Victorian Urn Trophy",
           "host": "Dartmouth",
-          "status": "12A",
+          "status": "12B",
           "live": true,
           "place": "1st",
           "field": 16,
@@ -845,8 +845,8 @@
         {
           "reg": "Schell Trophy",
           "host": "Vermont",
-          "status": "14A",
-          "live": true,
+          "status": "Finished",
+          "live": false,
           "place": "5th",
           "field": 18,
           "link": "https://scores.collegesailing.org/f26/schell/"
@@ -854,7 +854,7 @@
         {
           "reg": "Nickerson Trophy",
           "host": "Tufts",
-          "status": "8B",
+          "status": "10B",
           "live": true,
           "place": "10th",
           "field": 17,
@@ -884,17 +884,17 @@
           "6"
         ],
         [
-          "The 35th Captain Hurst Bowl",
-          "Dartmouth",
-          "Oct 17",
-          "8",
-          "18"
-        ],
-        [
           "Women's Atlantic Coast Championship Finals",
           "St. Mary's",
           "Oct 17",
           "1",
+          "18"
+        ],
+        [
+          "The 35th Captain Hurst Bowl",
+          "Dartmouth",
+          "Oct 17",
+          "8",
           "18"
         ],
         [
@@ -933,6 +933,13 @@
           "9"
         ],
         [
+          "The George Warren Smith '22 Trophy 2026",
+          "MIT",
+          "Oct 03",
+          "14",
+          "18"
+        ],
+        [
           "Danmark Trophy",
           "Coast Guard",
           "Oct 03",
@@ -945,13 +952,6 @@
           "Oct 03",
           "9",
           "17"
-        ],
-        [
-          "The George Warren Smith '22 Trophy 2026",
-          "MIT",
-          "Oct 03",
-          "14",
-          "18"
         ],
         [
           "Sherman Hoyt Trophy",
@@ -987,17 +987,17 @@
         {
           "reg": "The Victorian Urn Trophy",
           "host": "Dartmouth",
-          "status": "12A",
+          "status": "12B",
           "live": true,
-          "place": "3rd",
+          "place": "2nd",
           "field": 16,
           "link": "https://scores.collegesailing.org/f26/victorian-urn/"
         },
         {
           "reg": "Schell Trophy",
           "host": "Vermont",
-          "status": "14A",
-          "live": true,
+          "status": "Finished",
+          "live": false,
           "place": "6th",
           "field": 18,
           "link": "https://scores.collegesailing.org/f26/schell/"
@@ -1005,9 +1005,9 @@
         {
           "reg": "Nickerson Trophy",
           "host": "Tufts",
-          "status": "8B",
+          "status": "10B",
           "live": true,
-          "place": "13th",
+          "place": "11th",
           "field": 17,
           "link": "https://scores.collegesailing.org/f26/nickerson/"
         }
