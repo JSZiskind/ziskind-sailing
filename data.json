@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T18:36:23-04:00",
+  "updated": "2026-11-01T22:08:18-04:00",
   "zoey": {
     "first": "Zoey",
     "last": "Ziskind",
@@ -641,7 +641,7 @@
       "team": "Tufts Jumbos",
       "teamPlace": 6,
       "teamField": 18,
-      "note": "Score summary School Team A B TOT 1 Yale University Bulldogs 67 62 129 2 Brown University",
+      "note": "Congratulations to Yale on the win, and a big thanks to all the teams, coaches, and volunteers for a great weekend of racing on Lake Champlain!",
       "url": "https://scores.collegesailing.org/f26/schell/"
     },
     "seasons": [
@@ -845,8 +845,8 @@
         {
           "reg": "Schell Trophy",
           "host": "Vermont",
-          "status": "Finished",
-          "live": false,
+          "status": "Final",
+          "live": true,
           "place": "5th",
           "field": 18,
           "link": "https://scores.collegesailing.org/f26/schell/"
@@ -854,7 +854,7 @@
         {
           "reg": "Nickerson Trophy",
           "host": "Tufts",
-          "status": "10B",
+          "status": "Final",
           "live": true,
           "place": "10th",
           "field": 17,
@@ -919,13 +919,6 @@
           "17"
         ],
         [
-          "Women's Atlantic Coast Championship Round 1 B",
-          "Bowdoin",
-          "Oct 03",
-          "1",
-          "17"
-        ],
-        [
           "BU Invite",
           "Boston University",
           "Oct 03",
@@ -933,11 +926,11 @@
           "9"
         ],
         [
-          "The George Warren Smith '22 Trophy 2026",
-          "MIT",
+          "Women's Atlantic Coast Championship Round 1 B",
+          "Bowdoin",
           "Oct 03",
-          "14",
-          "18"
+          "1",
+          "17"
         ],
         [
           "Danmark Trophy",
@@ -952,6 +945,13 @@
           "Oct 03",
           "9",
           "17"
+        ],
+        [
+          "The George Warren Smith '22 Trophy 2026",
+          "MIT",
+          "Oct 03",
+          "14",
+          "18"
         ],
         [
           "Sherman Hoyt Trophy",
@@ -996,8 +996,8 @@
         {
           "reg": "Schell Trophy",
           "host": "Vermont",
-          "status": "Finished",
-          "live": false,
+          "status": "Final",
+          "live": true,
           "place": "6th",
           "field": 18,
           "link": "https://scores.collegesailing.org/f26/schell/"
@@ -1005,7 +1005,7 @@
         {
           "reg": "Nickerson Trophy",
           "host": "Tufts",
-          "status": "10B",
+          "status": "Final",
           "live": true,
           "place": "11th",
           "field": 17,
@@ -1056,13 +1056,6 @@
           "18"
         ],
         [
-          "The 35th Captain Hurst Bowl",
-          "Dartmouth",
-          "Oct 17",
-          "7",
-          "18"
-        ],
-        [
           "Savin Hill Invite",
           "Boston College",
           "Oct 17",
@@ -1074,6 +1067,13 @@
           "St. Mary's",
           "Oct 17",
           "9",
+          "18"
+        ],
+        [
+          "The 35th Captain Hurst Bowl",
+          "Dartmouth",
+          "Oct 17",
+          "7",
           "18"
         ],
         [
