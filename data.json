@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T22:08:18-04:00",
+  "updated": "2026-11-02T18:10:26-04:00",
   "zoey": {
     "first": "Zoey",
     "last": "Ziskind",
@@ -11,23 +11,20 @@
     "conf": "NEISA",
     "cls_color": "z",
     "url": "https://scores.collegesailing.org/sailors/zoey-ziskind/",
-    "live": {
-      "reg": "The Victorian Urn Trophy",
-      "host": "Dartmouth",
-      "pos": "Skipper",
-      "place": 1,
-      "fleet": 16,
-      "div": "A",
-      "team": "Harvard Crimson",
-      "teamPlace": 1,
-      "teamField": 16,
-      "note": "",
-      "url": "https://scores.collegesailing.org/f26/victorian-urn/"
-    },
+    "live": null,
     "seasons": [
       {
         "label": "Fall 2026",
         "races": [
+          {
+            "name": "The Victorian Urn Trophy",
+            "host": "Dartmouth",
+            "date": "Oct 31",
+            "position": "Skipper",
+            "place": 1,
+            "fleet": 16,
+            "div": "A"
+          },
           {
             "name": "Open Atlantic Coast Championship",
             "host": "Brown",
@@ -832,42 +829,35 @@
       "conf": "NEISA",
       "regattas": 27,
       "url": "https://scores.collegesailing.org/schools/harvard/",
-      "now": [
-        {
-          "reg": "The Victorian Urn Trophy",
-          "host": "Dartmouth",
-          "status": "12B",
-          "live": true,
-          "place": "1st",
-          "field": 16,
-          "link": "https://scores.collegesailing.org/f26/victorian-urn/"
-        },
-        {
-          "reg": "Schell Trophy",
-          "host": "Vermont",
-          "status": "Final",
-          "live": true,
-          "place": "5th",
-          "field": 18,
-          "link": "https://scores.collegesailing.org/f26/schell/"
-        },
-        {
-          "reg": "Nickerson Trophy",
-          "host": "Tufts",
-          "status": "Final",
-          "live": true,
-          "place": "10th",
-          "field": 17,
-          "link": "https://scores.collegesailing.org/f26/nickerson/"
-        }
-      ],
+      "now": [],
       "season": [
+        [
+          "Schell Trophy",
+          "Vermont",
+          "Oct 31",
+          "5",
+          "18"
+        ],
         [
           "Terrier Invite",
           "Boston University",
           "Oct 31",
           "9",
           "9"
+        ],
+        [
+          "Nickerson Trophy",
+          "Tufts",
+          "Oct 31",
+          "10",
+          "17"
+        ],
+        [
+          "The Victorian Urn Trophy",
+          "Dartmouth",
+          "Oct 31",
+          "1",
+          "16"
         ],
         [
           "Open Atlantic Coast Championship",
@@ -952,27 +942,6 @@
           "Oct 03",
           "14",
           "18"
-        ],
-        [
-          "Sherman Hoyt Trophy",
-          "Brown",
-          "Sep 27",
-          "7",
-          "16"
-        ],
-        [
-          "GLIOR J105 Division",
-          "Chicago",
-          "Sep 26",
-          "7",
-          "10"
-        ],
-        [
-          "Regis Trophy",
-          "Boston University",
-          "Sep 19",
-          "15",
-          "17"
         ]
       ]
     },
@@ -983,36 +952,29 @@
       "conf": "NEISA",
       "regattas": 30,
       "url": "https://scores.collegesailing.org/schools/tufts/",
-      "now": [
-        {
-          "reg": "The Victorian Urn Trophy",
-          "host": "Dartmouth",
-          "status": "12B",
-          "live": true,
-          "place": "2nd",
-          "field": 16,
-          "link": "https://scores.collegesailing.org/f26/victorian-urn/"
-        },
-        {
-          "reg": "Schell Trophy",
-          "host": "Vermont",
-          "status": "Final",
-          "live": true,
-          "place": "6th",
-          "field": 18,
-          "link": "https://scores.collegesailing.org/f26/schell/"
-        },
-        {
-          "reg": "Nickerson Trophy",
-          "host": "Tufts",
-          "status": "Final",
-          "live": true,
-          "place": "11th",
-          "field": 17,
-          "link": "https://scores.collegesailing.org/f26/nickerson/"
-        }
-      ],
+      "now": [],
       "season": [
+        [
+          "Schell Trophy",
+          "Vermont",
+          "Oct 31",
+          "6",
+          "18"
+        ],
+        [
+          "Nickerson Trophy",
+          "Tufts",
+          "Oct 31",
+          "11",
+          "17"
+        ],
+        [
+          "The Victorian Urn Trophy",
+          "Dartmouth",
+          "Oct 31",
+          "2",
+          "16"
+        ],
         [
           "Terrier Invite",
           "Boston University",
@@ -1035,13 +997,6 @@
           "17"
         ],
         [
-          "Norman Reid Team Race",
-          "Boston College",
-          "Oct 24",
-          "1",
-          "6"
-        ],
-        [
           "Yale Women's",
           "Yale",
           "Oct 24",
@@ -1049,18 +1004,18 @@
           "17"
         ],
         [
+          "Norman Reid Team Race",
+          "Boston College",
+          "Oct 24",
+          "1",
+          "6"
+        ],
+        [
           "Nevins Trophy",
           "Kings Point",
           "Oct 17",
           "3",
           "18"
-        ],
-        [
-          "Savin Hill Invite",
-          "Boston College",
-          "Oct 17",
-          "3",
-          "16"
         ],
         [
           "Women's Atlantic Coast Championship Finals",
@@ -1077,6 +1032,13 @@
           "18"
         ],
         [
+          "Savin Hill Invite",
+          "Boston College",
+          "Oct 17",
+          "3",
+          "16"
+        ],
+        [
           "Hewitt Trophy",
           "Bowdoin",
           "Oct 10",
@@ -1091,13 +1053,6 @@
           "17"
         ],
         [
-          "Women's Atlantic Coast Championship Round 1A",
-          "Dartmouth",
-          "Oct 03",
-          "2",
-          "18"
-        ],
-        [
           "BU Invite",
           "Boston University",
           "Oct 03",
@@ -1105,25 +1060,11 @@
           "9"
         ],
         [
-          "The George Warren Smith '22 Trophy 2026",
-          "MIT",
+          "Women's Atlantic Coast Championship Round 1A",
+          "Dartmouth",
           "Oct 03",
-          "7",
+          "2",
           "18"
-        ],
-        [
-          "Danmark Trophy",
-          "Coast Guard",
-          "Oct 03",
-          "9",
-          "19"
-        ],
-        [
-          "NEISA Match Race Championships",
-          "Maine Maritime",
-          "Oct 03",
-          "6",
-          "8"
         ]
       ]
     }
