@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T20:38:45-04:00",
+  "updated": "2026-11-07T13:56:49-04:00",
   "zoey": {
     "first": "Zoey",
     "last": "Ziskind",
@@ -829,7 +829,17 @@
       "conf": "NEISA",
       "regattas": 27,
       "url": "https://scores.collegesailing.org/schools/harvard/",
-      "now": [],
+      "now": [
+        {
+          "reg": "Janet Lutz Trophy",
+          "host": "Fordham",
+          "status": "3",
+          "live": true,
+          "place": "2nd",
+          "field": 18,
+          "link": "https://scores.collegesailing.org/f26/janet-lutz/"
+        }
+      ],
       "season": [
         [
           "Schell Trophy",
@@ -837,6 +847,13 @@
           "Oct 31",
           "5",
           "18"
+        ],
+        [
+          "The Victorian Urn Trophy",
+          "Dartmouth",
+          "Oct 31",
+          "1",
+          "16"
         ],
         [
           "Terrier Invite",
@@ -853,13 +870,6 @@
           "17"
         ],
         [
-          "The Victorian Urn Trophy",
-          "Dartmouth",
-          "Oct 31",
-          "1",
-          "16"
-        ],
-        [
           "Open Atlantic Coast Championship",
           "Brown",
           "Oct 24",
@@ -874,17 +884,17 @@
           "6"
         ],
         [
-          "Women's Atlantic Coast Championship Finals",
-          "St. Mary's",
-          "Oct 17",
-          "1",
-          "18"
-        ],
-        [
           "The 35th Captain Hurst Bowl",
           "Dartmouth",
           "Oct 17",
           "8",
+          "18"
+        ],
+        [
+          "Women's Atlantic Coast Championship Finals",
+          "St. Mary's",
+          "Oct 17",
+          "1",
           "18"
         ],
         [
@@ -909,18 +919,18 @@
           "17"
         ],
         [
-          "BU Invite",
-          "Boston University",
-          "Oct 03",
-          "9",
-          "9"
-        ],
-        [
           "Women's Atlantic Coast Championship Round 1 B",
           "Bowdoin",
           "Oct 03",
           "1",
           "17"
+        ],
+        [
+          "BU Invite",
+          "Boston University",
+          "Oct 03",
+          "9",
+          "9"
         ],
         [
           "Danmark Trophy",
