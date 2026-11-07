@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T13:56:49-04:00",
+  "updated": "2026-11-07T18:29:42-04:00",
   "zoey": {
     "first": "Zoey",
     "last": "Ziskind",
@@ -833,9 +833,9 @@
         {
           "reg": "Janet Lutz Trophy",
           "host": "Fordham",
-          "status": "3",
+          "status": "8",
           "live": true,
-          "place": "2nd",
+          "place": "1st",
           "field": 18,
           "link": "https://scores.collegesailing.org/f26/janet-lutz/"
         }
@@ -933,13 +933,6 @@
           "9"
         ],
         [
-          "Danmark Trophy",
-          "Coast Guard",
-          "Oct 03",
-          "4",
-          "19"
-        ],
-        [
           "Moody Trophy",
           "Rhode Island",
           "Oct 03",
@@ -952,6 +945,13 @@
           "Oct 03",
           "14",
           "18"
+        ],
+        [
+          "Danmark Trophy",
+          "Coast Guard",
+          "Oct 03",
+          "4",
+          "19"
         ]
       ]
     },
