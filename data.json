@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T14:13:54-04:00",
+  "updated": "2026-11-08T18:40:48-04:00",
   "zoey": {
     "first": "Zoey",
     "last": "Ziskind",
@@ -833,8 +833,8 @@
         {
           "reg": "Janet Lutz Trophy",
           "host": "Fordham",
-          "status": "12",
-          "live": true,
+          "status": "Finished",
+          "live": false,
           "place": "1st",
           "field": 18,
           "link": "https://scores.collegesailing.org/f26/janet-lutz/"
@@ -847,13 +847,6 @@
           "Oct 31",
           "5",
           "18"
-        ],
-        [
-          "The Victorian Urn Trophy",
-          "Dartmouth",
-          "Oct 31",
-          "1",
-          "16"
         ],
         [
           "Terrier Invite",
@@ -870,6 +863,13 @@
           "17"
         ],
         [
+          "The Victorian Urn Trophy",
+          "Dartmouth",
+          "Oct 31",
+          "1",
+          "16"
+        ],
+        [
           "Open Atlantic Coast Championship",
           "Brown",
           "Oct 24",
@@ -884,17 +884,17 @@
           "6"
         ],
         [
-          "The 35th Captain Hurst Bowl",
-          "Dartmouth",
-          "Oct 17",
-          "8",
-          "18"
-        ],
-        [
           "Women's Atlantic Coast Championship Finals",
           "St. Mary's",
           "Oct 17",
           "1",
+          "18"
+        ],
+        [
+          "The 35th Captain Hurst Bowl",
+          "Dartmouth",
+          "Oct 17",
+          "8",
           "18"
         ],
         [
@@ -919,6 +919,13 @@
           "17"
         ],
         [
+          "BU Invite",
+          "Boston University",
+          "Oct 03",
+          "9",
+          "9"
+        ],
+        [
           "Women's Atlantic Coast Championship Round 1 B",
           "Bowdoin",
           "Oct 03",
@@ -926,11 +933,11 @@
           "17"
         ],
         [
-          "BU Invite",
-          "Boston University",
+          "Danmark Trophy",
+          "Coast Guard",
           "Oct 03",
-          "9",
-          "9"
+          "4",
+          "19"
         ],
         [
           "Moody Trophy",
@@ -945,13 +952,6 @@
           "Oct 03",
           "14",
           "18"
-        ],
-        [
-          "Danmark Trophy",
-          "Coast Guard",
-          "Oct 03",
-          "4",
-          "19"
         ]
       ]
     },
