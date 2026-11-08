@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T22:04:01-04:00",
+  "updated": "2026-11-08T14:13:54-04:00",
   "zoey": {
     "first": "Zoey",
     "last": "Ziskind",
@@ -833,7 +833,7 @@
         {
           "reg": "Janet Lutz Trophy",
           "host": "Fordham",
-          "status": "8",
+          "status": "12",
           "live": true,
           "place": "1st",
           "field": 18,
@@ -847,6 +847,13 @@
           "Oct 31",
           "5",
           "18"
+        ],
+        [
+          "The Victorian Urn Trophy",
+          "Dartmouth",
+          "Oct 31",
+          "1",
+          "16"
         ],
         [
           "Terrier Invite",
@@ -863,13 +870,6 @@
           "17"
         ],
         [
-          "The Victorian Urn Trophy",
-          "Dartmouth",
-          "Oct 31",
-          "1",
-          "16"
-        ],
-        [
           "Open Atlantic Coast Championship",
           "Brown",
           "Oct 24",
@@ -884,17 +884,17 @@
           "6"
         ],
         [
-          "Women's Atlantic Coast Championship Finals",
-          "St. Mary's",
-          "Oct 17",
-          "1",
-          "18"
-        ],
-        [
           "The 35th Captain Hurst Bowl",
           "Dartmouth",
           "Oct 17",
           "8",
+          "18"
+        ],
+        [
+          "Women's Atlantic Coast Championship Finals",
+          "St. Mary's",
+          "Oct 17",
+          "1",
           "18"
         ],
         [
@@ -933,6 +933,13 @@
           "9"
         ],
         [
+          "Moody Trophy",
+          "Rhode Island",
+          "Oct 03",
+          "9",
+          "17"
+        ],
+        [
           "The George Warren Smith '22 Trophy 2026",
           "MIT",
           "Oct 03",
@@ -945,13 +952,6 @@
           "Oct 03",
           "4",
           "19"
-        ],
-        [
-          "Moody Trophy",
-          "Rhode Island",
-          "Oct 03",
-          "9",
-          "17"
         ]
       ]
     },
