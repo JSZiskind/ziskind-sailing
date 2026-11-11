@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T16:15:52-04:00",
+  "updated": "2026-11-10T21:01:54-04:00",
   "zoey": {
     "first": "Zoey",
     "last": "Ziskind",
@@ -829,24 +829,28 @@
       "conf": "NEISA",
       "regattas": 27,
       "url": "https://scores.collegesailing.org/schools/harvard/",
-      "now": [
-        {
-          "reg": "Janet Lutz Trophy",
-          "host": "Fordham",
-          "status": "Finished",
-          "live": false,
-          "place": "1st",
-          "field": 18,
-          "link": "https://scores.collegesailing.org/f26/janet-lutz/"
-        }
-      ],
+      "now": [],
       "season": [
+        [
+          "Janet Lutz Trophy",
+          "Fordham",
+          "Nov 07",
+          "1",
+          "18"
+        ],
         [
           "Schell Trophy",
           "Vermont",
           "Oct 31",
           "5",
           "18"
+        ],
+        [
+          "The Victorian Urn Trophy",
+          "Dartmouth",
+          "Oct 31",
+          "1",
+          "16"
         ],
         [
           "Terrier Invite",
@@ -863,13 +867,6 @@
           "17"
         ],
         [
-          "The Victorian Urn Trophy",
-          "Dartmouth",
-          "Oct 31",
-          "1",
-          "16"
-        ],
-        [
           "Open Atlantic Coast Championship",
           "Brown",
           "Oct 24",
@@ -884,17 +881,17 @@
           "6"
         ],
         [
-          "Women's Atlantic Coast Championship Finals",
-          "St. Mary's",
-          "Oct 17",
-          "1",
-          "18"
-        ],
-        [
           "The 35th Captain Hurst Bowl",
           "Dartmouth",
           "Oct 17",
           "8",
+          "18"
+        ],
+        [
+          "Women's Atlantic Coast Championship Finals",
+          "St. Mary's",
+          "Oct 17",
+          "1",
           "18"
         ],
         [
@@ -919,18 +916,18 @@
           "17"
         ],
         [
-          "BU Invite",
-          "Boston University",
-          "Oct 03",
-          "9",
-          "9"
-        ],
-        [
           "Women's Atlantic Coast Championship Round 1 B",
           "Bowdoin",
           "Oct 03",
           "1",
           "17"
+        ],
+        [
+          "BU Invite",
+          "Boston University",
+          "Oct 03",
+          "9",
+          "9"
         ],
         [
           "Danmark Trophy",
@@ -945,13 +942,6 @@
           "Oct 03",
           "9",
           "17"
-        ],
-        [
-          "The George Warren Smith '22 Trophy 2026",
-          "MIT",
-          "Oct 03",
-          "14",
-          "18"
         ]
       ]
     },
@@ -972,6 +962,13 @@
           "18"
         ],
         [
+          "Terrier Invite",
+          "Boston University",
+          "Oct 31",
+          "2",
+          "9"
+        ],
+        [
           "Nickerson Trophy",
           "Tufts",
           "Oct 31",
@@ -984,13 +981,6 @@
           "Oct 31",
           "2",
           "16"
-        ],
-        [
-          "Terrier Invite",
-          "Boston University",
-          "Oct 31",
-          "2",
-          "9"
         ],
         [
           "Open Atlantic Coast Championship",
@@ -1007,13 +997,6 @@
           "17"
         ],
         [
-          "Yale Women's",
-          "Yale",
-          "Oct 24",
-          "4",
-          "17"
-        ],
-        [
           "Norman Reid Team Race",
           "Boston College",
           "Oct 24",
@@ -1021,11 +1004,25 @@
           "6"
         ],
         [
+          "Yale Women's",
+          "Yale",
+          "Oct 24",
+          "4",
+          "17"
+        ],
+        [
           "Nevins Trophy",
           "Kings Point",
           "Oct 17",
           "3",
           "18"
+        ],
+        [
+          "Savin Hill Invite",
+          "Boston College",
+          "Oct 17",
+          "3",
+          "16"
         ],
         [
           "Women's Atlantic Coast Championship Finals",
@@ -1042,13 +1039,6 @@
           "18"
         ],
         [
-          "Savin Hill Invite",
-          "Boston College",
-          "Oct 17",
-          "3",
-          "16"
-        ],
-        [
           "Hewitt Trophy",
           "Bowdoin",
           "Oct 10",
@@ -1063,18 +1053,18 @@
           "17"
         ],
         [
-          "BU Invite",
-          "Boston University",
-          "Oct 03",
-          "5",
-          "9"
-        ],
-        [
           "Women's Atlantic Coast Championship Round 1A",
           "Dartmouth",
           "Oct 03",
           "2",
           "18"
+        ],
+        [
+          "BU Invite",
+          "Boston University",
+          "Oct 03",
+          "5",
+          "9"
         ]
       ]
     }
