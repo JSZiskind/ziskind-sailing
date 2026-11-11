@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T21:01:54-04:00",
+  "updated": "2026-11-11T16:00:26-04:00",
   "zoey": {
     "first": "Zoey",
     "last": "Ziskind",
@@ -628,23 +628,20 @@
     "conf": "NEISA",
     "cls_color": "c",
     "url": "https://scores.collegesailing.org/sailors/crue-ziskind/",
-    "live": {
-      "reg": "Schell Trophy",
-      "host": "Vermont",
-      "pos": "Skipper",
-      "place": 10,
-      "fleet": 18,
-      "div": "A",
-      "team": "Tufts Jumbos",
-      "teamPlace": 6,
-      "teamField": 18,
-      "note": "Congratulations to Yale on the win, and a big thanks to all the teams, coaches, and volunteers for a great weekend of racing on Lake Champlain!",
-      "url": "https://scores.collegesailing.org/f26/schell/"
-    },
+    "live": null,
     "seasons": [
       {
         "label": "Fall 2026",
         "races": [
+          {
+            "name": "Schell Trophy",
+            "host": "Vermont",
+            "date": "Oct 31",
+            "position": "Skipper",
+            "place": 10,
+            "fleet": 18,
+            "div": "A"
+          },
           {
             "name": "Open Atlantic Coast Championship",
             "host": "Brown",
@@ -950,7 +947,7 @@
       "short": "TUF",
       "cls_color": "c",
       "conf": "NEISA",
-      "regattas": 30,
+      "regattas": 31,
       "url": "https://scores.collegesailing.org/schools/tufts/",
       "now": [],
       "season": [
@@ -1018,6 +1015,13 @@
           "18"
         ],
         [
+          "The 35th Captain Hurst Bowl",
+          "Dartmouth",
+          "Oct 17",
+          "7",
+          "18"
+        ],
+        [
           "Savin Hill Invite",
           "Boston College",
           "Oct 17",
@@ -1029,13 +1033,6 @@
           "St. Mary's",
           "Oct 17",
           "9",
-          "18"
-        ],
-        [
-          "The 35th Captain Hurst Bowl",
-          "Dartmouth",
-          "Oct 17",
-          "7",
           "18"
         ],
         [
