@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T21:17:39-04:00",
+  "updated": "2026-11-14T14:39:15-04:00",
   "zoey": {
     "first": "Zoey",
     "last": "Ziskind",
@@ -949,7 +949,17 @@
       "conf": "NEISA",
       "regattas": 31,
       "url": "https://scores.collegesailing.org/schools/tufts/",
-      "now": [],
+      "now": [
+        {
+          "reg": "Tufts Sailing Alumni Team Race",
+          "host": "Tufts",
+          "status": "21",
+          "live": true,
+          "place": "1st",
+          "field": 8,
+          "link": "https://scores.collegesailing.org/f26/tufts-sailing-alumni-team-race/"
+        }
+      ],
       "season": [
         [
           "Schell Trophy",
