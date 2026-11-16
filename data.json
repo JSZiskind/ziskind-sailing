@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T15:15:08-04:00",
+  "updated": "2026-11-15T20:47:18-04:00",
   "zoey": {
     "first": "Zoey",
     "last": "Ziskind",
@@ -953,7 +953,7 @@
         {
           "reg": "Tufts Sailing Alumni Team Race",
           "host": "Tufts",
-          "status": "43",
+          "status": "44",
           "live": true,
           "place": "1st",
           "field": 8,
@@ -1025,6 +1025,13 @@
           "18"
         ],
         [
+          "The 35th Captain Hurst Bowl",
+          "Dartmouth",
+          "Oct 17",
+          "7",
+          "18"
+        ],
+        [
           "Savin Hill Invite",
           "Boston College",
           "Oct 17",
@@ -1036,13 +1043,6 @@
           "St. Mary's",
           "Oct 17",
           "9",
-          "18"
-        ],
-        [
-          "The 35th Captain Hurst Bowl",
-          "Dartmouth",
-          "Oct 17",
-          "7",
           "18"
         ],
         [
