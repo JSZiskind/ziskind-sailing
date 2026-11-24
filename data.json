@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T20:36:29-04:00",
+  "updated": "2026-11-24T18:55:21-04:00",
   "zoey": {
     "first": "Zoey",
     "last": "Ziskind",
@@ -843,13 +843,6 @@
           "18"
         ],
         [
-          "The Victorian Urn Trophy",
-          "Dartmouth",
-          "Oct 31",
-          "1",
-          "16"
-        ],
-        [
           "Terrier Invite",
           "Boston University",
           "Oct 31",
@@ -862,6 +855,13 @@
           "Oct 31",
           "10",
           "17"
+        ],
+        [
+          "The Victorian Urn Trophy",
+          "Dartmouth",
+          "Oct 31",
+          "1",
+          "16"
         ],
         [
           "Open Atlantic Coast Championship",
@@ -878,17 +878,17 @@
           "6"
         ],
         [
-          "The 35th Captain Hurst Bowl",
-          "Dartmouth",
-          "Oct 17",
-          "8",
-          "18"
-        ],
-        [
           "Women's Atlantic Coast Championship Finals",
           "St. Mary's",
           "Oct 17",
           "1",
+          "18"
+        ],
+        [
+          "The 35th Captain Hurst Bowl",
+          "Dartmouth",
+          "Oct 17",
+          "8",
           "18"
         ],
         [
@@ -927,18 +927,18 @@
           "9"
         ],
         [
+          "The George Warren Smith '22 Trophy 2026",
+          "MIT",
+          "Oct 03",
+          "14",
+          "18"
+        ],
+        [
           "Danmark Trophy",
           "Coast Guard",
           "Oct 03",
           "4",
           "19"
-        ],
-        [
-          "Moody Trophy",
-          "Rhode Island",
-          "Oct 03",
-          "9",
-          "17"
         ]
       ]
     },
@@ -949,24 +949,28 @@
       "conf": "NEISA",
       "regattas": 31,
       "url": "https://scores.collegesailing.org/schools/tufts/",
-      "now": [
-        {
-          "reg": "Tufts Sailing Alumni Team Race",
-          "host": "Tufts",
-          "status": "44",
-          "live": true,
-          "place": "1st",
-          "field": 8,
-          "link": "https://scores.collegesailing.org/f26/tufts-sailing-alumni-team-race/"
-        }
-      ],
+      "now": [],
       "season": [
+        [
+          "Tufts Sailing Alumni Team Race",
+          "Tufts",
+          "Nov 14",
+          "1",
+          "8"
+        ],
         [
           "Schell Trophy",
           "Vermont",
           "Oct 31",
           "6",
           "18"
+        ],
+        [
+          "The Victorian Urn Trophy",
+          "Dartmouth",
+          "Oct 31",
+          "2",
+          "16"
         ],
         [
           "Terrier Invite",
@@ -981,13 +985,6 @@
           "Oct 31",
           "11",
           "17"
-        ],
-        [
-          "The Victorian Urn Trophy",
-          "Dartmouth",
-          "Oct 31",
-          "2",
-          "16"
         ],
         [
           "Open Atlantic Coast Championship",
@@ -1065,13 +1062,6 @@
           "Oct 03",
           "2",
           "18"
-        ],
-        [
-          "BU Invite",
-          "Boston University",
-          "Oct 03",
-          "5",
-          "9"
         ]
       ]
     }
